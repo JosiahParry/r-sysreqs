@@ -1,1 +1,1 @@
-[{"Package":"copula","SystemRequirements":"pdfcrop (part of TexLive) is required to rebuild\nthe vignettes."}]
+[{"Package":"copula","Version":"1.0-1","SystemRequirements":"pdfcrop (part of TexLive) is required to rebuild\nthe vignettes."}]

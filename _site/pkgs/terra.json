@@ -1,1 +1,1 @@
-[{"Package":"terra","SystemRequirements":"C++11, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>=\n4.9.3), sqlite3"}]
+[{"Package":"terra","Version":"1.5-21","SystemRequirements":"C++11, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>=\n4.9.3), sqlite3"}]

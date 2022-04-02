@@ -1,1 +1,1 @@
-[{"Package":"bioacoustics","SystemRequirements":"C++11, fftw3, GNU make"}]
+[{"Package":"bioacoustics","Version":"0.2.8","SystemRequirements":"C++11, fftw3, GNU make"}]

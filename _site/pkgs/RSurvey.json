@@ -1,1 +1,1 @@
-[{"Package":"RSurvey","SystemRequirements":"Tcl/Tk (>= 8.5), Tktable (>= 2.9, optional)"}]
+[{"Package":"RSurvey","Version":"0.9.3","SystemRequirements":"Tcl/Tk (>= 8.5), Tktable (>= 2.9, optional)"}]

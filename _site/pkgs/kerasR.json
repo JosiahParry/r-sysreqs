@@ -1,1 +1,1 @@
-[{"Package":"kerasR","SystemRequirements":"Python (>= 2.7); keras <https://keras.io/> (>=\n2.0.1)"}]
+[{"Package":"kerasR","Version":"0.6.1","SystemRequirements":"Python (>= 2.7); keras <https://keras.io/> (>=\n2.0.1)"}]

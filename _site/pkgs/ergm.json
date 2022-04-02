@@ -1,1 +1,1 @@
-[{"Package":"ergm","SystemRequirements":"OpenMPI"}]
+[{"Package":"ergm","Version":"4.1.2","SystemRequirements":"OpenMPI"}]

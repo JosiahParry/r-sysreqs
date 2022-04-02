@@ -1,1 +1,1 @@
-[{"Package":"spatPomp","SystemRequirements":"For Windows users, Rtools (see\nhttps://cran.r-project.org/bin/windows/Rtools/)."}]
+[{"Package":"spatPomp","Version":"0.29.0.0","SystemRequirements":"For Windows users, Rtools (see\nhttps://cran.r-project.org/bin/windows/Rtools/)."}]

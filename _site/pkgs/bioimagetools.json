@@ -1,1 +1,1 @@
-[{"Package":"bioimagetools","SystemRequirements":"tiff fftw libcurl openssl"}]
+[{"Package":"bioimagetools","Version":"1.1.5","SystemRequirements":"tiff fftw libcurl openssl"}]

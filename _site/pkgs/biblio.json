@@ -1,1 +1,1 @@
-[{"Package":"biblio","SystemRequirements":"pandoc (>= 1.14) - http://pandoc.org"}]
+[{"Package":"biblio","Version":"0.0.6","SystemRequirements":"pandoc (>= 1.14) - http://pandoc.org"}]

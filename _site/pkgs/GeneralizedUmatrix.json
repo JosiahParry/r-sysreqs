@@ -1,1 +1,1 @@
-[{"Package":"GeneralizedUmatrix","SystemRequirements":"C++11, pandoc (>=1.12.3, needed for vignettes)"}]
+[{"Package":"GeneralizedUmatrix","Version":"1.2.2","SystemRequirements":"C++11, pandoc (>=1.12.3, needed for vignettes)"}]

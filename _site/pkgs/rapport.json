@@ -1,1 +1,1 @@
-[{"Package":"rapport","SystemRequirements":"pandoc (https://johnmacfarlane.net/pandoc) for\nexporting markdown files to other formats."}]
+[{"Package":"rapport","Version":"1.1","SystemRequirements":"pandoc (https://johnmacfarlane.net/pandoc) for\nexporting markdown files to other formats."}]

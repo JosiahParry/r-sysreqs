@@ -1,1 +1,1 @@
-[{"Package":"rfacts","SystemRequirements":"FACTS Linux engines (>= 6.2.4), FLFLL (>= 6.2.4),\nMono (>= 5.20.1.19)"}]
+[{"Package":"rfacts","Version":"0.2.0","SystemRequirements":"FACTS Linux engines (>= 6.2.4), FLFLL (>= 6.2.4),\nMono (>= 5.20.1.19)"}]

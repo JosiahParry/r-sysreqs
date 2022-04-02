@@ -1,1 +1,1 @@
-[{"Package":"Thermimage","SystemRequirements":"exiftool, perl, ffmpeg, imagemagick"}]
+[{"Package":"Thermimage","Version":"4.1.3","SystemRequirements":"exiftool, perl, ffmpeg, imagemagick"}]

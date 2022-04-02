@@ -1,1 +1,1 @@
-[{"Package":"jarbes","SystemRequirements":"JAGS (>= 4.3.0) (see\nhttp://mcmc-jags.sourceforge.net)"}]
+[{"Package":"jarbes","Version":"2.0.0","SystemRequirements":"JAGS (>= 4.3.0) (see\nhttp://mcmc-jags.sourceforge.net)"}]

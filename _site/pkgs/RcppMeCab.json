@@ -1,1 +1,1 @@
-[{"Package":"RcppMeCab","SystemRequirements":"MeCab 0.996 (or mecab-ko 0.9.2) or higher, GNU make"}]
+[{"Package":"RcppMeCab","Version":"0.0.1.2","SystemRequirements":"MeCab 0.996 (or mecab-ko 0.9.2) or higher, GNU make"}]

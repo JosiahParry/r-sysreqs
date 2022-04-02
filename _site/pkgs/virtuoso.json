@@ -1,1 +1,1 @@
-[{"Package":"virtuoso","SystemRequirements":"virtuoso-opensource (Linux). For Mac & Windows,\nthis package can automate Virtuoso installation."}]
+[{"Package":"virtuoso","Version":"0.1.8","SystemRequirements":"virtuoso-opensource (Linux). For Mac & Windows,\nthis package can automate Virtuoso installation."}]

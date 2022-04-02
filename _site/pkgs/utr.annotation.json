@@ -1,1 +1,1 @@
-[{"Package":"utr.annotation","SystemRequirements":"Linux or MacOS Intel chip tensorflow (1.14.0)"}]
+[{"Package":"utr.annotation","Version":"1.0.4","SystemRequirements":"Linux or MacOS Intel chip tensorflow (1.14.0)"}]

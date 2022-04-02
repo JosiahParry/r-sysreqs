@@ -1,1 +1,1 @@
-[{"Package":"bcgam","SystemRequirements":"Rtools (>= 3.3) for Windows, Xcode (>= 9.0) for Mac\nOS X"}]
+[{"Package":"bcgam","Version":"1.0","SystemRequirements":"Rtools (>= 3.3) for Windows, Xcode (>= 9.0) for Mac\nOS X"}]

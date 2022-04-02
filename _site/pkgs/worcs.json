@@ -1,1 +1,1 @@
-[{"Package":"worcs","SystemRequirements":"pandoc (>= 1.14) - http://pandoc.org"}]
+[{"Package":"worcs","Version":"0.1.8","SystemRequirements":"pandoc (>= 1.14) - http://pandoc.org"}]

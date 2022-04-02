@@ -1,1 +1,1 @@
-[{"Package":"multibridge","SystemRequirements":"GNU make, mpfr (>= 3.0.0)"}]
+[{"Package":"multibridge","Version":"1.1.0","SystemRequirements":"GNU make, mpfr (>= 3.0.0)"}]

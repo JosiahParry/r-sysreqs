@@ -1,1 +1,1 @@
-[{"Package":"curl","SystemRequirements":"libcurl: libcurl-devel (rpm) or\nlibcurl4-openssl-dev (deb)."}]
+[{"Package":"curl","Version":"4.3.2","SystemRequirements":"libcurl: libcurl-devel (rpm) or\nlibcurl4-openssl-dev (deb)."}]

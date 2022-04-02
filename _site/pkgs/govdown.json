@@ -1,1 +1,1 @@
-[{"Package":"govdown","SystemRequirements":"pandoc (>= 2.0) - http://pandoc.org"}]
+[{"Package":"govdown","Version":"0.10.1","SystemRequirements":"pandoc (>= 2.0) - http://pandoc.org"}]

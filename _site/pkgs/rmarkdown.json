@@ -1,1 +1,1 @@
-[{"Package":"rmarkdown","SystemRequirements":"pandoc (>= 1.14) - http://pandoc.org"}]
+[{"Package":"rmarkdown","Version":"2.13","SystemRequirements":"pandoc (>= 1.14) - http://pandoc.org"}]

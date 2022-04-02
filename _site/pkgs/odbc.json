@@ -1,1 +1,1 @@
-[{"Package":"odbc","SystemRequirements":"C++11, GNU make, An ODBC3 driver manager and\ndrivers."}]
+[{"Package":"odbc","Version":"1.3.3","SystemRequirements":"C++11, GNU make, An ODBC3 driver manager and\ndrivers."}]

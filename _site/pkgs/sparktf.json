@@ -1,1 +1,1 @@
-[{"Package":"sparktf","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]
+[{"Package":"sparktf","Version":"0.1.0","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]

@@ -1,1 +1,1 @@
-[{"Package":"blandr","SystemRequirements":"pandoc (>=1.12.3)"}]
+[{"Package":"blandr","Version":"0.5.1","SystemRequirements":"pandoc (>=1.12.3)"}]

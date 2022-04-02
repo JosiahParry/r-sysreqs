@@ -1,1 +1,1 @@
-[{"Package":"websocket","SystemRequirements":"C++11, GNU make, OpenSSL >= 1.0.2"}]
+[{"Package":"websocket","Version":"1.4.1","SystemRequirements":"C++11, GNU make, OpenSSL >= 1.0.2"}]

@@ -1,1 +1,1 @@
-[{"Package":"protolite","SystemRequirements":"libprotobuf and protobuf-compiler"}]
+[{"Package":"protolite","Version":"2.1.1","SystemRequirements":"libprotobuf and protobuf-compiler"}]

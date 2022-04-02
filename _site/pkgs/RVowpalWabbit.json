@@ -1,1 +1,1 @@
-[{"Package":"RVowpalWabbit","SystemRequirements":"The Boost 'program_options' library\n<https://boost.org> is required."}]
+[{"Package":"RVowpalWabbit","Version":"0.0.16","SystemRequirements":"The Boost 'program_options' library\n<https://boost.org> is required."}]

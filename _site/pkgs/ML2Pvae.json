@@ -1,1 +1,1 @@
-[{"Package":"ML2Pvae","SystemRequirements":"TensorFlow (https://www.tensorflow.org), Keras\n(https://keras.io), TensorFlow Probability\n(https://www.tensorflow.org/probability)"}]
+[{"Package":"ML2Pvae","Version":"1.0.0","SystemRequirements":"TensorFlow (https://www.tensorflow.org), Keras\n(https://keras.io), TensorFlow Probability\n(https://www.tensorflow.org/probability)"}]

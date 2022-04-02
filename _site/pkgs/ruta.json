@@ -1,1 +1,1 @@
-[{"Package":"ruta","SystemRequirements":"Python (>= 2.7); keras <https://keras.io/> (>= 2.1)"}]
+[{"Package":"ruta","Version":"1.1.0","SystemRequirements":"Python (>= 2.7); keras <https://keras.io/> (>= 2.1)"}]

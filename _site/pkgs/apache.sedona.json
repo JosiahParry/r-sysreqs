@@ -1,1 +1,1 @@
-[{"Package":"apache.sedona","SystemRequirements":"'Apache Spark' 2.4.x or 3.x"}]
+[{"Package":"apache.sedona","Version":"1.1.1","SystemRequirements":"'Apache Spark' 2.4.x or 3.x"}]

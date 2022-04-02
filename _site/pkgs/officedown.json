@@ -1,1 +1,1 @@
-[{"Package":"officedown","SystemRequirements":"pandoc (>= 2.0) - http://pandoc.org"}]
+[{"Package":"officedown","Version":"0.2.4","SystemRequirements":"pandoc (>= 2.0) - http://pandoc.org"}]

@@ -1,1 +1,1 @@
-[{"Package":"neo2R","SystemRequirements":"neo4j (==3 OR ==4) <https://neo4j.com/>"}]
+[{"Package":"neo2R","Version":"2.1.0","SystemRequirements":"neo4j (==3 OR ==4) <https://neo4j.com/>"}]

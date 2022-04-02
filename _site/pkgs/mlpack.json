@@ -1,1 +1,1 @@
-[{"Package":"mlpack","SystemRequirements":"A C++11 compiler. Versions 4.8.*, 4.9.* or later of\nGCC will be fine."}]
+[{"Package":"mlpack","Version":"3.4.2.1","SystemRequirements":"A C++11 compiler. Versions 4.8.*, 4.9.* or later of\nGCC will be fine."}]

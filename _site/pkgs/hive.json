@@ -1,1 +1,1 @@
-[{"Package":"hive","SystemRequirements":"Apache Hadoop >= 2.7.2\n(https://hadoop.apache.org/releases.html#Download); Obsolete:\nHadoop core >= 0.19.1 and <= 1.0.3 or CDH3\n(https://www.cloudera.com); standard unix tools (e.g., chmod)"}]
+[{"Package":"hive","Version":"0.2-2","SystemRequirements":"Apache Hadoop >= 2.7.2\n(https://hadoop.apache.org/releases.html#Download); Obsolete:\nHadoop core >= 0.19.1 and <= 1.0.3 or CDH3\n(https://www.cloudera.com); standard unix tools (e.g., chmod)"}]

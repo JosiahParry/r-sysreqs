@@ -1,1 +1,1 @@
-[{"Package":"KSgeneral","SystemRequirements":"fftw3 (>=3.3.4), C++11"}]
+[{"Package":"KSgeneral","Version":"1.1.1","SystemRequirements":"fftw3 (>=3.3.4), C++11"}]

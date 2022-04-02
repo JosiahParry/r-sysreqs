@@ -1,1 +1,1 @@
-[{"Package":"forImage","SystemRequirements":"Python >=3.5, numpy ( >= 1.18.1), imutils ( >=\n0.5.3), scipy ( >= 1.4.1), pandas ( >= 1.0.2), Pillow ( >=\n7.0.0), opencv ( >= 4.1.2)"}]
+[{"Package":"forImage","Version":"0.1.0","SystemRequirements":"Python >=3.5, numpy ( >= 1.18.1), imutils ( >=\n0.5.3), scipy ( >= 1.4.1), pandas ( >= 1.0.2), Pillow ( >=\n7.0.0), opencv ( >= 4.1.2)"}]

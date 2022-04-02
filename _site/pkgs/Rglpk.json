@@ -1,1 +1,1 @@
-[{"Package":"Rglpk","SystemRequirements":"GLPK library package (e.g., libglpk-dev on\nDebian/Ubuntu)"}]
+[{"Package":"Rglpk","Version":"0.6-4","SystemRequirements":"GLPK library package (e.g., libglpk-dev on\nDebian/Ubuntu)"}]

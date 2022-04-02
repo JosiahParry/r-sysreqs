@@ -1,1 +1,1 @@
-[{"Package":"ijtiff","SystemRequirements":"libtiff, libjpeg, zlib"}]
+[{"Package":"ijtiff","Version":"2.2.7","SystemRequirements":"libtiff, libjpeg, zlib"}]

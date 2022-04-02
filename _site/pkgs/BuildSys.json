@@ -1,1 +1,1 @@
-[{"Package":"BuildSys","SystemRequirements":"'Microsoft Visual Code', 'Rtools' on 'Windows',\n'gdb' or 'lldb' depending on which OS"}]
+[{"Package":"BuildSys","Version":"1.1.2","SystemRequirements":"'Microsoft Visual Code', 'Rtools' on 'Windows',\n'gdb' or 'lldb' depending on which OS"}]

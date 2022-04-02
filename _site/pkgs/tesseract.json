@@ -1,1 +1,1 @@
-[{"Package":"tesseract","SystemRequirements":"Tesseract >= 3.03 (libtesseract-dev /\ntesseract-devel) and Leptonica (libleptonica-dev /\nleptonica-devel). On Debian you need to install the English\ntraining data separately (tesseract-ocr-eng)"}]
+[{"Package":"tesseract","Version":"5.0.0","SystemRequirements":"Tesseract >= 3.03 (libtesseract-dev /\ntesseract-devel) and Leptonica (libleptonica-dev /\nleptonica-devel). On Debian you need to install the English\ntraining data separately (tesseract-ocr-eng)"}]

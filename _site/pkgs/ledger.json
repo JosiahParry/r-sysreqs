@@ -1,1 +1,1 @@
-[{"Package":"ledger","SystemRequirements":"ledger (>= 3.1), hledger (>= 1.2), beancount (>=\n2.0)"}]
+[{"Package":"ledger","Version":"2.0.9","SystemRequirements":"ledger (>= 3.1), hledger (>= 1.2), beancount (>=\n2.0)"}]

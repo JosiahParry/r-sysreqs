@@ -1,1 +1,1 @@
-[{"Package":"bdpopt","SystemRequirements":"JAGS (>= 3.4.0) (see\nhttp://mcmc-jags.sourceforge.net)"}]
+[{"Package":"bdpopt","Version":"1.0-1","SystemRequirements":"JAGS (>= 3.4.0) (see\nhttp://mcmc-jags.sourceforge.net)"}]

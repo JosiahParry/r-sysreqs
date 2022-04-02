@@ -1,1 +1,1 @@
-[{"Package":"V8","SystemRequirements":"V8 engine version 6+ is needed for ES6 and WASM\nsupport. On Linux you can build against libv8-dev (Debian) or\nv8-devel (Fedora). We also provide static libv8 binaries for\nmost platforms, see the README for details."}]
+[{"Package":"V8","Version":"4.1.0","SystemRequirements":"V8 engine version 6+ is needed for ES6 and WASM\nsupport. On Linux you can build against libv8-dev (Debian) or\nv8-devel (Fedora). We also provide static libv8 binaries for\nmost platforms, see the README for details."}]

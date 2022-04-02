@@ -1,1 +1,1 @@
-[{"Package":"igate","SystemRequirements":"pandoc (>= 1.12.3) - http://pandoc.org"}]
+[{"Package":"igate","Version":"0.3.3","SystemRequirements":"pandoc (>= 1.12.3) - http://pandoc.org"}]

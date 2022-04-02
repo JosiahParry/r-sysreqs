@@ -1,1 +1,1 @@
-[{"Package":"dclone","SystemRequirements":"none, one or more of JAGS (>= 3.0.0), WinBUGS (>=\n1.4), OpenBUGS (>= 3.2.2), Stan"}]
+[{"Package":"dclone","Version":"2.3-0","SystemRequirements":"none, one or more of JAGS (>= 3.0.0), WinBUGS (>=\n1.4), OpenBUGS (>= 3.2.2), Stan"}]

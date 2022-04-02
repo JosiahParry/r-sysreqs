@@ -1,1 +1,1 @@
-[{"Package":"tutorial","SystemRequirements":"pandoc (>= 1.12.3) -\nhttp://johnmacfarlane.net/pandoc"}]
+[{"Package":"tutorial","Version":"0.4.3","SystemRequirements":"pandoc (>= 1.12.3) -\nhttp://johnmacfarlane.net/pandoc"}]

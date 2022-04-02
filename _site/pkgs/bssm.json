@@ -1,1 +1,1 @@
-[{"Package":"bssm","SystemRequirements":"C++11, pandoc (>= 1.12.3, needed for vignettes)"}]
+[{"Package":"bssm","Version":"2.0.0","SystemRequirements":"C++11, pandoc (>= 1.12.3, needed for vignettes)"}]

@@ -1,1 +1,1 @@
-[{"Package":"rcdd","SystemRequirements":"GMP (GNU MP bignum library from\n<https://gmplib.org/>)"}]
+[{"Package":"rcdd","Version":"1.5","SystemRequirements":"GMP (GNU MP bignum library from\n<https://gmplib.org/>)"}]

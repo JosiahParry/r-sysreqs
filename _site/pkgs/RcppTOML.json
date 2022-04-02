@@ -1,1 +1,1 @@
-[{"Package":"RcppTOML","SystemRequirements":"A C++11 compiler; g++ (>= 4.9.*) or newer works."}]
+[{"Package":"RcppTOML","Version":"0.1.7","SystemRequirements":"A C++11 compiler; g++ (>= 4.9.*) or newer works."}]

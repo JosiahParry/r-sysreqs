@@ -1,1 +1,1 @@
-[{"Package":"tfhub","SystemRequirements":"TensorFlow >= 2.0 (https://www.tensorflow.org/)"}]
+[{"Package":"tfhub","Version":"0.8.1","SystemRequirements":"TensorFlow >= 2.0 (https://www.tensorflow.org/)"}]

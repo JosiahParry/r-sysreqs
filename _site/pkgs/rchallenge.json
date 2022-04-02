@@ -1,1 +1,1 @@
-[{"Package":"rchallenge","SystemRequirements":"pandoc (>= 1.12.3) -\nhttp://johnmacfarlane.net/pandoc"}]
+[{"Package":"rchallenge","Version":"1.3.4","SystemRequirements":"pandoc (>= 1.12.3) -\nhttp://johnmacfarlane.net/pandoc"}]

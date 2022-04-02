@@ -1,1 +1,1 @@
-[{"Package":"bigsimr","SystemRequirements":"Julia (>= 1.5), Bigsimr.jl, Distributions.jl"}]
+[{"Package":"bigsimr","Version":"0.11.2","SystemRequirements":"Julia (>= 1.5), Bigsimr.jl, Distributions.jl"}]

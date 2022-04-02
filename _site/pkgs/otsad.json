@@ -1,1 +1,1 @@
-[{"Package":"otsad","SystemRequirements":"Python (>= 3.0.1); bencode-python3 (1.0.2)"}]
+[{"Package":"otsad","Version":"0.2.0","SystemRequirements":"Python (>= 3.0.1); bencode-python3 (1.0.2)"}]

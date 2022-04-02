@@ -1,1 +1,1 @@
-[{"Package":"SymbolicDeterminants","SystemRequirements":"gmp (>= 4.2.3)"}]
+[{"Package":"SymbolicDeterminants","Version":"2.0.0","SystemRequirements":"gmp (>= 4.2.3)"}]

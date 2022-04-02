@@ -1,1 +1,1 @@
-[{"Package":"rcrypt","SystemRequirements":"GnuPG (https://gnupg.org/)"}]
+[{"Package":"rcrypt","Version":"0.1.1","SystemRequirements":"GnuPG (https://gnupg.org/)"}]

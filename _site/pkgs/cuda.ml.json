@@ -1,1 +1,1 @@
-[{"Package":"cuda.ml","SystemRequirements":"RAPIDS cuML (see https://rapids.ai/start.html)"}]
+[{"Package":"cuda.ml","Version":"0.3.2","SystemRequirements":"RAPIDS cuML (see https://rapids.ai/start.html)"}]

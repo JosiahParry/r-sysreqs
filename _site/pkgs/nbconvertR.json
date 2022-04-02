@@ -1,1 +1,1 @@
-[{"Package":"nbconvertR","SystemRequirements":"pandoc, jupyter, jupyter nbconvert (\"nbconvert\"\npython package), pywin32 (on windows)"}]
+[{"Package":"nbconvertR","Version":"1.3.2","SystemRequirements":"pandoc, jupyter, jupyter nbconvert (\"nbconvert\"\npython package), pywin32 (on windows)"}]

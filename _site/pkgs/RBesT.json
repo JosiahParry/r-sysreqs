@@ -1,1 +1,1 @@
-[{"Package":"RBesT","SystemRequirements":"GNU make, pandoc (>= 1.12.3), pandoc-citeproc"}]
+[{"Package":"RBesT","Version":"1.6-3","SystemRequirements":"GNU make, pandoc (>= 1.12.3), pandoc-citeproc"}]

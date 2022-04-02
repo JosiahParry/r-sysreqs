@@ -1,1 +1,1 @@
-[{"Package":"bedr","SystemRequirements":"Preferred genomic operations engine: 'BEDTools',\n'BEDOPS' and 'Tabix (>= 1.3)'."}]
+[{"Package":"bedr","Version":"1.0.7","SystemRequirements":"Preferred genomic operations engine: 'BEDTools',\n'BEDOPS' and 'Tabix (>= 1.3)'."}]

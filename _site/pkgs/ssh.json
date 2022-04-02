@@ -1,1 +1,1 @@
-[{"Package":"ssh","SystemRequirements":"libssh >= 0.6.0 (the original, not libssh2)"}]
+[{"Package":"ssh","Version":"0.8.0","SystemRequirements":"libssh >= 0.6.0 (the original, not libssh2)"}]

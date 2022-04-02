@@ -1,1 +1,1 @@
-[{"Package":"microbenchmark","SystemRequirements":"On a Unix-alike, one of the C functions\nmach_absolute_time (macOS), clock_gettime or gethrtime. If none\nof these is found, the obsolescent POSIX function gettimeofday\nwill be tried."}]
+[{"Package":"microbenchmark","Version":"1.4.9","SystemRequirements":"On a Unix-alike, one of the C functions\nmach_absolute_time (macOS), clock_gettime or gethrtime. If none\nof these is found, the obsolescent POSIX function gettimeofday\nwill be tried."}]

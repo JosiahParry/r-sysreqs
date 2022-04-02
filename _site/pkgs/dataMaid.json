@@ -1,1 +1,1 @@
-[{"Package":"dataMaid","SystemRequirements":"pandoc (>= 2.0; https://pandoc.org), git, whoami"}]
+[{"Package":"dataMaid","Version":"1.4.1","SystemRequirements":"pandoc (>= 2.0; https://pandoc.org), git, whoami"}]

@@ -1,1 +1,1 @@
-[{"Package":"nucim","SystemRequirements":"tiff fftw libcurl openssl"}]
+[{"Package":"nucim","Version":"1.0.11","SystemRequirements":"tiff fftw libcurl openssl"}]

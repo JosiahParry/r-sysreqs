@@ -1,1 +1,1 @@
-[{"Package":"Rcplex","SystemRequirements":"IBM ILOG CPLEX libraries and headers"}]
+[{"Package":"Rcplex","Version":"0.3-5","SystemRequirements":"IBM ILOG CPLEX libraries and headers"}]

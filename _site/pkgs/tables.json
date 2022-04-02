@@ -1,1 +1,1 @@
-[{"Package":"tables","SystemRequirements":"pandoc (>= 1.12.3) for vignettes"}]
+[{"Package":"tables","Version":"0.9.6","SystemRequirements":"pandoc (>= 1.12.3) for vignettes"}]

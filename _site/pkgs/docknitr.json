@@ -1,1 +1,1 @@
-[{"Package":"docknitr","SystemRequirements":"Docker, RStudio>=1.2"}]
+[{"Package":"docknitr","Version":"1.0.1","SystemRequirements":"Docker, RStudio>=1.2"}]

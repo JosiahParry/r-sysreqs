@@ -1,1 +1,1 @@
-[{"Package":"image.textlinedetector","SystemRequirements":"C++11 and OpenCV 3 or newer: libopencv-dev (Debian,\nUbuntu) or opencv-devel (Fedora)"}]
+[{"Package":"image.textlinedetector","Version":"0.1.5","SystemRequirements":"C++11 and OpenCV 3 or newer: libopencv-dev (Debian,\nUbuntu) or opencv-devel (Fedora)"}]

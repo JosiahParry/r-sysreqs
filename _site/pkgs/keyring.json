@@ -1,1 +1,1 @@
-[{"Package":"keyring","SystemRequirements":"Optional: libsecret on Linux (libsecret-1-dev on\nDebian/Ubuntu, libsecret-devel on Fedora/CentOS)"}]
+[{"Package":"keyring","Version":"1.3.0","SystemRequirements":"Optional: libsecret on Linux (libsecret-1-dev on\nDebian/Ubuntu, libsecret-devel on Fedora/CentOS)"}]

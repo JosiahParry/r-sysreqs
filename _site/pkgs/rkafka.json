@@ -1,1 +1,1 @@
-[{"Package":"rkafka","SystemRequirements":"Java JDK 1.7 or higher,Apache Kafka 2.8.0-0.8.1.1"}]
+[{"Package":"rkafka","Version":"1.3","SystemRequirements":"Java JDK 1.7 or higher,Apache Kafka 2.8.0-0.8.1.1"}]

@@ -1,1 +1,1 @@
-[{"Package":"paws.common","SystemRequirements":"pandoc (>= 1.12.3) - http://pandoc.org"}]
+[{"Package":"paws.common","Version":"0.3.17","SystemRequirements":"pandoc (>= 1.12.3) - http://pandoc.org"}]

@@ -1,1 +1,1 @@
-[{"Package":"torch","SystemRequirements":"C++11, LibTorch (https://pytorch.org/)"}]
+[{"Package":"torch","Version":"0.7.2","SystemRequirements":"C++11, LibTorch (https://pytorch.org/)"}]

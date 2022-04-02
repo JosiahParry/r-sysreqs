@@ -1,1 +1,1 @@
-[{"Package":"RTD","SystemRequirements":"embulk, embulk-output-td"}]
+[{"Package":"RTD","Version":"0.4.1","SystemRequirements":"embulk, embulk-output-td"}]

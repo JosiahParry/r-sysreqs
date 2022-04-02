@@ -1,1 +1,1 @@
-[{"Package":"pander","SystemRequirements":"pandoc (https://johnmacfarlane.net/pandoc) for\nexporting markdown files to other formats."}]
+[{"Package":"pander","Version":"0.6.5","SystemRequirements":"pandoc (https://johnmacfarlane.net/pandoc) for\nexporting markdown files to other formats."}]

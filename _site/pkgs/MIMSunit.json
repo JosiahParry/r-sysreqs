@@ -1,1 +1,1 @@
-[{"Package":"MIMSunit","SystemRequirements":"memory (>= 4GB) Ubuntu: build-essential,\nlibxml2-dev, libssl-dev, libcurl4-openssl-dev Windows: Rtools\n(>= 3.5)"}]
+[{"Package":"MIMSunit","Version":"0.11.1","SystemRequirements":"memory (>= 4GB) Ubuntu: build-essential,\nlibxml2-dev, libssl-dev, libcurl4-openssl-dev Windows: Rtools\n(>= 3.5)"}]

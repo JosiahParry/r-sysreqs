@@ -1,1 +1,1 @@
-[{"Package":"igraph","SystemRequirements":"gmp (optional), libxml2 (optional), glpk (>= 4.57,\noptional), C++11"}]
+[{"Package":"igraph","Version":"1.3.0","SystemRequirements":"gmp (optional), libxml2 (optional), glpk (>= 4.57,\noptional), C++11"}]

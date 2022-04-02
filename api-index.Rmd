@@ -1,0 +1,19 @@
+---
+title: "R System Dependencies "
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+This website provides access to the R system dependency databases that are available from [`rstudio/r-system-requirements`](https://github.com/rstudio/r-system-requirements). 
+
+Contents: 
+
+- [`patterns`](patterns.json) is used as a lookup table for identify system dependencies
+- [`systems`](systems.json) provides a list of available operating systems (limited to linux distributions)
+- [`/rules`](rules/index.html) is a directory containing the lookup rools for each system dependencies requirements e.g. `rules/gdal.json`
+- [`/pkgs`](pkgs/index.html) is a directory containing json files for each package listing their name, version, and system dependencies e.g. `pkgs/igraph.json`

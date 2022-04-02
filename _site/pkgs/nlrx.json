@@ -1,1 +1,1 @@
-[{"Package":"nlrx","SystemRequirements":"NetLogo (>= 5.3.1), Java (JDK 1.8), pandoc,\nOpenSSL, udunits-2, PROJ.4, GEOS, GDAL, libxml2"}]
+[{"Package":"nlrx","Version":"0.4.3","SystemRequirements":"NetLogo (>= 5.3.1), Java (JDK 1.8), pandoc,\nOpenSSL, udunits-2, PROJ.4, GEOS, GDAL, libxml2"}]

@@ -1,1 +1,1 @@
-[{"Package":"NACHO","SystemRequirements":"pandoc (>= 1.12.3), pandoc-citeproc"}]
+[{"Package":"NACHO","Version":"1.1.0","SystemRequirements":"pandoc (>= 1.12.3), pandoc-citeproc"}]

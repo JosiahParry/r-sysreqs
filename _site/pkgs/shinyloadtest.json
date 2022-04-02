@@ -1,1 +1,1 @@
-[{"Package":"shinyloadtest","SystemRequirements":"pandoc (>= 2.2) - http://pandoc.org"}]
+[{"Package":"shinyloadtest","Version":"1.1.0","SystemRequirements":"pandoc (>= 2.2) - http://pandoc.org"}]

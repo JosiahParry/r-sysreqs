@@ -1,1 +1,1 @@
-[{"Package":"tabr","SystemRequirements":"LilyPond v2.23.0+ (only needed for rendering sheet\nmusic or writing MIDI files)"}]
+[{"Package":"tabr","Version":"0.4.5","SystemRequirements":"LilyPond v2.23.0+ (only needed for rendering sheet\nmusic or writing MIDI files)"}]

@@ -1,1 +1,1 @@
-[{"Package":"webdriver","SystemRequirements":"PhantomJS (http://phantomjs.org/)"}]
+[{"Package":"webdriver","Version":"1.0.6","SystemRequirements":"PhantomJS (http://phantomjs.org/)"}]

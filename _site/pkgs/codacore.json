@@ -1,1 +1,1 @@
-[{"Package":"codacore","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]
+[{"Package":"codacore","Version":"0.0.3","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]

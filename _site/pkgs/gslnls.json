@@ -1,1 +1,1 @@
-[{"Package":"gslnls","SystemRequirements":"GSL (>= 2.2)"}]
+[{"Package":"gslnls","Version":"1.1.1","SystemRequirements":"GSL (>= 2.2)"}]

@@ -1,1 +1,1 @@
-[{"Package":"bsub","SystemRequirements":"Platform LSF, bsub"}]
+[{"Package":"bsub","Version":"1.1.0","SystemRequirements":"Platform LSF, bsub"}]

@@ -1,1 +1,1 @@
-[{"Package":"sparklyr.flint","SystemRequirements":"Spark: 2.x or above"}]
+[{"Package":"sparklyr.flint","Version":"0.2.2","SystemRequirements":"Spark: 2.x or above"}]

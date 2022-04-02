@@ -1,1 +1,1 @@
-[{"Package":"MBNMAdose","SystemRequirements":"JAGS (>= 4.3.0)\n(https://mcmc-jags.sourceforge.net/)"}]
+[{"Package":"MBNMAdose","Version":"0.4.1","SystemRequirements":"JAGS (>= 4.3.0)\n(https://mcmc-jags.sourceforge.net/)"}]

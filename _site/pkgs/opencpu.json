@@ -1,1 +1,1 @@
-[{"Package":"opencpu","SystemRequirements":"pandoc, apparmor (optional)"}]
+[{"Package":"opencpu","Version":"2.2.7","SystemRequirements":"pandoc, apparmor (optional)"}]

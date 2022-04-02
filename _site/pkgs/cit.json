@@ -1,1 +1,1 @@
-[{"Package":"cit","SystemRequirements":"gsl (with development libraries libgsl-dev)"}]
+[{"Package":"cit","Version":"2.3.1","SystemRequirements":"gsl (with development libraries libgsl-dev)"}]

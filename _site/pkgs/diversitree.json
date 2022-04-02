@@ -1,1 +1,1 @@
-[{"Package":"diversitree","SystemRequirements":"fftw3 (>= 3.1.2), gsl (>= 1.15)"}]
+[{"Package":"diversitree","Version":"0.9-16","SystemRequirements":"fftw3 (>= 3.1.2), gsl (>= 1.15)"}]

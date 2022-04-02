@@ -1,1 +1,1 @@
-[{"Package":"rJava","SystemRequirements":"Java JDK 1.2 or higher (for JRI/REngine JDK 1.4 or\nhigher), GNU make"}]
+[{"Package":"rJava","Version":"1.0-6","SystemRequirements":"Java JDK 1.2 or higher (for JRI/REngine JDK 1.4 or\nhigher), GNU make"}]

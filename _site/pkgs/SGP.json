@@ -1,1 +1,1 @@
-[{"Package":"SGP","SystemRequirements":"(PDF)LaTeX (https://www.latex-project.org/) with\n'pdfpages' package for studentGrowthPlot option in visualizeSGP\nto bind together student growth plots into school catalogs"}]
+[{"Package":"SGP","Version":"1.9-5.0","SystemRequirements":"(PDF)LaTeX (https://www.latex-project.org/) with\n'pdfpages' package for studentGrowthPlot option in visualizeSGP\nto bind together student growth plots into school catalogs"}]

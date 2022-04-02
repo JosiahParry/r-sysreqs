@@ -1,1 +1,1 @@
-[{"Package":"cld3","SystemRequirements":"libprotobuf and protobuf-compiler"}]
+[{"Package":"cld3","Version":"1.4.2","SystemRequirements":"libprotobuf and protobuf-compiler"}]

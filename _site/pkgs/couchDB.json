@@ -1,1 +1,1 @@
-[{"Package":"couchDB","SystemRequirements":"couchDB instance to connect to and work with."}]
+[{"Package":"couchDB","Version":"1.4.1","SystemRequirements":"couchDB instance to connect to and work with."}]

@@ -1,1 +1,1 @@
-[{"Package":"mongolite","SystemRequirements":"OpenSSL, Cyrus SASL (aka libsasl2)"}]
+[{"Package":"mongolite","Version":"2.5.0","SystemRequirements":"OpenSSL, Cyrus SASL (aka libsasl2)"}]

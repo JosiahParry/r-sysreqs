@@ -1,1 +1,1 @@
-[{"Package":"Cairo","SystemRequirements":"cairo (>= 1.2 http://www.cairographics.org/)"}]
+[{"Package":"Cairo","Version":"1.5-15","SystemRequirements":"cairo (>= 1.2 http://www.cairographics.org/)"}]

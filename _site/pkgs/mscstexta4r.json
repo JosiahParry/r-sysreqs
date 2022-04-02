@@ -1,1 +1,1 @@
-[{"Package":"mscstexta4r","SystemRequirements":"A valid account MUST be registered with Microsoft's\nCognitive Services website\n<https://www.microsoft.com/cognitive-services/> in order to\nobtain a (free) API key. Without an API key, this package will\nnot work properly."}]
+[{"Package":"mscstexta4r","Version":"0.1.2","SystemRequirements":"A valid account MUST be registered with Microsoft's\nCognitive Services website\n<https://www.microsoft.com/cognitive-services/> in order to\nobtain a (free) API key. Without an API key, this package will\nnot work properly."}]

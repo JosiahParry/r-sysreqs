@@ -1,1 +1,1 @@
-[{"Package":"RcppGetconf","SystemRequirements":"A POSIX system. Currently Linux and OS X are known\nto work."}]
+[{"Package":"RcppGetconf","Version":"0.0.3","SystemRequirements":"A POSIX system. Currently Linux and OS X are known\nto work."}]

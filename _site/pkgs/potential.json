@@ -1,1 +1,1 @@
-[{"Package":"potential","SystemRequirements":"GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ.4 (>= 4.8.0)"}]
+[{"Package":"potential","Version":"0.1.0","SystemRequirements":"GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ.4 (>= 4.8.0)"}]

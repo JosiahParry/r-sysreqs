@@ -1,1 +1,1 @@
-[{"Package":"lubridate","SystemRequirements":"C++11, A system with zoneinfo data (e.g.\n/usr/share/zoneinfo). On Windows the zoneinfo included with R\nis used."}]
+[{"Package":"lubridate","Version":"1.8.0","SystemRequirements":"C++11, A system with zoneinfo data (e.g.\n/usr/share/zoneinfo). On Windows the zoneinfo included with R\nis used."}]

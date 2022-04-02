@@ -1,1 +1,1 @@
-[{"Package":"sparkbq","SystemRequirements":"Spark (>= 2.2.x)"}]
+[{"Package":"sparkbq","Version":"0.1.1","SystemRequirements":"Spark (>= 2.2.x)"}]

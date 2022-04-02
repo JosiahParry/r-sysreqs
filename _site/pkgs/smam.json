@@ -1,1 +1,1 @@
-[{"Package":"smam","SystemRequirements":"GNU GSL, GNU make, C++11"}]
+[{"Package":"smam","Version":"0.6.0","SystemRequirements":"GNU GSL, GNU make, C++11"}]

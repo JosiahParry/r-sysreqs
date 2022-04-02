@@ -1,1 +1,1 @@
-[{"Package":"rrd","SystemRequirements":"librrd: 'librrd-dev' (DEB), 'rrdtool-devel' (RPM),\n'rrdtool' (OSX), 'rrdtool' (CSW)"}]
+[{"Package":"rrd","Version":"0.2.4","SystemRequirements":"librrd: 'librrd-dev' (DEB), 'rrdtool-devel' (RPM),\n'rrdtool' (OSX), 'rrdtool' (CSW)"}]

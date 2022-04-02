@@ -1,1 +1,1 @@
-[{"Package":"ragg","SystemRequirements":"C++11, freetype2, libpng, libtiff, libjpeg"}]
+[{"Package":"ragg","Version":"1.2.2","SystemRequirements":"C++11, freetype2, libpng, libtiff, libjpeg"}]

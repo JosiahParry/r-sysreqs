@@ -1,1 +1,1 @@
-[{"Package":"DIZutils","SystemRequirements":"libpq >= 9.0: libpq-dev (deb) or postgresql-devel\n(rpm)"}]
+[{"Package":"DIZutils","Version":"0.0.15","SystemRequirements":"libpq >= 9.0: libpq-dev (deb) or postgresql-devel\n(rpm)"}]

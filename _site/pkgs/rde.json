@@ -1,1 +1,1 @@
-[{"Package":"rde","SystemRequirements":"xclip (https://github.com/astrand/xclip) or xsel\n(http://www.vergenet.net/~conrad/software/xsel/) for accessing\nthe X11 clipboard"}]
+[{"Package":"rde","Version":"0.1.0","SystemRequirements":"xclip (https://github.com/astrand/xclip) or xsel\n(http://www.vergenet.net/~conrad/software/xsel/) for accessing\nthe X11 clipboard"}]

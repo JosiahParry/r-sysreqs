@@ -1,1 +1,1 @@
-[{"Package":"pysd2r","SystemRequirements":"'python3' needs to built for the same architecture\nR is built for (32 or 64 bit)."}]
+[{"Package":"pysd2r","Version":"0.1.0","SystemRequirements":"'python3' needs to built for the same architecture\nR is built for (32 or 64 bit)."}]

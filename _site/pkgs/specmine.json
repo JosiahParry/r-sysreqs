@@ -1,1 +1,1 @@
-[{"Package":"specmine","SystemRequirements":"Python (>=3.5.2) and the following python module:\nnmrglue."}]
+[{"Package":"specmine","Version":"3.1.6","SystemRequirements":"Python (>=3.5.2) and the following python module:\nnmrglue."}]

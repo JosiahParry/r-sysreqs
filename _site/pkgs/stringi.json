@@ -1,1 +1,1 @@
-[{"Package":"stringi","SystemRequirements":"C++11, ICU4C (>= 55, optional)"}]
+[{"Package":"stringi","Version":"1.7.6","SystemRequirements":"C++11, ICU4C (>= 55, optional)"}]

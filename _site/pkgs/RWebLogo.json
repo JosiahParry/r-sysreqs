@@ -1,1 +1,1 @@
-[{"Package":"RWebLogo","SystemRequirements":"Python (>=2.6) in path and NumPy module installed,\nghostscript (>=9.0)"}]
+[{"Package":"RWebLogo","Version":"1.0.3","SystemRequirements":"Python (>=2.6) in path and NumPy module installed,\nghostscript (>=9.0)"}]

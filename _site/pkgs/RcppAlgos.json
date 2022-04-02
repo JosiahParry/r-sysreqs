@@ -1,1 +1,1 @@
-[{"Package":"RcppAlgos","SystemRequirements":"C++11, gmp (>= 4.2.3)"}]
+[{"Package":"RcppAlgos","Version":"2.5.3","SystemRequirements":"C++11, gmp (>= 4.2.3)"}]

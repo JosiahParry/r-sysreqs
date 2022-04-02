@@ -1,1 +1,1 @@
-[{"Package":"magick","SystemRequirements":"ImageMagick++: ImageMagick-c++-devel (rpm) or\nlibmagick++-dev (deb)"}]
+[{"Package":"magick","Version":"2.7.3","SystemRequirements":"ImageMagick++: ImageMagick-c++-devel (rpm) or\nlibmagick++-dev (deb)"}]

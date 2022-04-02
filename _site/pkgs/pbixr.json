@@ -1,1 +1,1 @@
-[{"Package":"pbixr","SystemRequirements":"'Microsoft' 'PowerShell'\n(<https://docs.microsoft.com/en-us/powershell/>), 'Microsoft'\n'Power BI' (<https://powerbi.microsoft.com>)"}]
+[{"Package":"pbixr","Version":"0.1.4","SystemRequirements":"'Microsoft' 'PowerShell'\n(<https://docs.microsoft.com/en-us/powershell/>), 'Microsoft'\n'Power BI' (<https://powerbi.microsoft.com>)"}]

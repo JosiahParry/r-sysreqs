@@ -1,1 +1,1 @@
-[{"Package":"imager","SystemRequirements":"fftw3,libtiff,C++11,X11"}]
+[{"Package":"imager","Version":"0.42.13","SystemRequirements":"fftw3,libtiff,C++11,X11"}]

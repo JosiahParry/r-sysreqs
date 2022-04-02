@@ -1,1 +1,1 @@
-[{"Package":"LOMAR","SystemRequirements":"C++14, gmp, fftw3"}]
+[{"Package":"LOMAR","Version":"0.2.1","SystemRequirements":"C++14, gmp, fftw3"}]

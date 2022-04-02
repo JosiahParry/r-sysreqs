@@ -1,1 +1,1 @@
-[{"Package":"tfprobability","SystemRequirements":"TensorFlow Probability\n(https://www.tensorflow.org/probability)"}]
+[{"Package":"tfprobability","Version":"0.15.0","SystemRequirements":"TensorFlow Probability\n(https://www.tensorflow.org/probability)"}]

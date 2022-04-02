@@ -1,1 +1,1 @@
-[{"Package":"R2WinBUGS","SystemRequirements":"OpenBugs for functions bugs() and openbugs() or\nWinBUGS 1.4 for function bugs()"}]
+[{"Package":"R2WinBUGS","Version":"2.1-21","SystemRequirements":"OpenBugs for functions bugs() and openbugs() or\nWinBUGS 1.4 for function bugs()"}]

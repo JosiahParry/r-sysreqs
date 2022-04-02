@@ -1,1 +1,1 @@
-[{"Package":"tsapp","SystemRequirements":"under Linux, fftwtools needs libfftw3-dev"}]
+[{"Package":"tsapp","Version":"1.0.4","SystemRequirements":"under Linux, fftwtools needs libfftw3-dev"}]

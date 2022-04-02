@@ -1,1 +1,1 @@
-[{"Package":"dccvalidator","SystemRequirements":"synapseclient (pypi.org/project/synapseclient)"}]
+[{"Package":"dccvalidator","Version":"0.3.0","SystemRequirements":"synapseclient (pypi.org/project/synapseclient)"}]

@@ -1,1 +1,1 @@
-[{"Package":"neptune","SystemRequirements":"Python (>= 3.0.0), Neptune (https://neptune.ai/)"}]
+[{"Package":"neptune","Version":"0.2.1","SystemRequirements":"Python (>= 3.0.0), Neptune (https://neptune.ai/)"}]

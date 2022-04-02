@@ -1,1 +1,1 @@
-[{"Package":"jmvconnect","SystemRequirements":"jamovi (>= 1.2.8), C++11"}]
+[{"Package":"jmvconnect","Version":"2.0.0","SystemRequirements":"jamovi (>= 1.2.8), C++11"}]

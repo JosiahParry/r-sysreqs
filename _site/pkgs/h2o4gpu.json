@@ -1,1 +1,1 @@
-[{"Package":"h2o4gpu","SystemRequirements":"Python (>= 3.6) with header files and shared\nlibrary; H2O4GPU (https://github.com/h2oai/h2o4gpu)"}]
+[{"Package":"h2o4gpu","Version":"0.3.3","SystemRequirements":"Python (>= 3.6) with header files and shared\nlibrary; H2O4GPU (https://github.com/h2oai/h2o4gpu)"}]

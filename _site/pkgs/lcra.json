@@ -1,1 +1,1 @@
-[{"Package":"lcra","SystemRequirements":"JAGS 4.x.y or WinBUGS 1.4"}]
+[{"Package":"lcra","Version":"1.1.2","SystemRequirements":"JAGS 4.x.y or WinBUGS 1.4"}]

@@ -1,1 +1,1 @@
-[{"Package":"ari","SystemRequirements":"ffmpeg (>= 3.2.4)"}]
+[{"Package":"ari","Version":"0.3.5","SystemRequirements":"ffmpeg (>= 3.2.4)"}]

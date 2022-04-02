@@ -1,1 +1,1 @@
-[{"Package":"ProcData","SystemRequirements":"Python (>= 2.7), Keras (>= 2.0), TensorFlow (>=\n1.13)"}]
+[{"Package":"ProcData","Version":"0.3.2","SystemRequirements":"Python (>= 2.7), Keras (>= 2.0), TensorFlow (>=\n1.13)"}]

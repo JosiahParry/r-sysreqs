@@ -1,1 +1,1 @@
-[{"Package":"hoopR","SystemRequirements":"pandoc (>= 1.12.3), pandoc-citeproc"}]
+[{"Package":"hoopR","Version":"1.5.0","SystemRequirements":"pandoc (>= 1.12.3), pandoc-citeproc"}]

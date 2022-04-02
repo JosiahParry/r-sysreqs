@@ -1,1 +1,1 @@
-[{"Package":"ndjson","SystemRequirements":"zlib, C++14"}]
+[{"Package":"ndjson","Version":"0.8.0","SystemRequirements":"zlib, C++14"}]

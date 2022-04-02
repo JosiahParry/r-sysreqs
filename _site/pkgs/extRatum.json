@@ -1,1 +1,1 @@
-[{"Package":"extRatum","SystemRequirements":"C++11, GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>=\n4.8.0)"}]
+[{"Package":"extRatum","Version":"1.0.4","SystemRequirements":"C++11, GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>=\n4.8.0)"}]

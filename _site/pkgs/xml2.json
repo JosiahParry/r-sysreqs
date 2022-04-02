@@ -1,1 +1,1 @@
-[{"Package":"xml2","SystemRequirements":"libxml2: libxml2-dev (deb), libxml2-devel (rpm)"}]
+[{"Package":"xml2","Version":"1.3.3","SystemRequirements":"libxml2: libxml2-dev (deb), libxml2-devel (rpm)"}]

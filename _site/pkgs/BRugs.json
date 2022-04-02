@@ -1,1 +1,1 @@
-[{"Package":"BRugs","SystemRequirements":"OpenBUGS (>= 3.2.2), hence Windows or Linux"}]
+[{"Package":"BRugs","Version":"0.9-1","SystemRequirements":"OpenBUGS (>= 3.2.2), hence Windows or Linux"}]

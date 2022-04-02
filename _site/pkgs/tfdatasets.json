@@ -1,1 +1,1 @@
-[{"Package":"tfdatasets","SystemRequirements":"TensorFlow >= 1.4 (https://www.tensorflow.org/)"}]
+[{"Package":"tfdatasets","Version":"2.7.0","SystemRequirements":"TensorFlow >= 1.4 (https://www.tensorflow.org/)"}]

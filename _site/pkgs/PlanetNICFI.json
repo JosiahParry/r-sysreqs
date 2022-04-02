@@ -1,1 +1,1 @@
-[{"Package":"PlanetNICFI","SystemRequirements":"aria2: apt-get install -y aria2 (deb), gdal-bin:\napt-get install -y gdal-bin (deb), libgdal-dev: apt-get install\n-y libgdal-dev (deb)"}]
+[{"Package":"PlanetNICFI","Version":"1.0.4","SystemRequirements":"aria2: apt-get install -y aria2 (deb), gdal-bin:\napt-get install -y gdal-bin (deb), libgdal-dev: apt-get install\n-y libgdal-dev (deb)"}]

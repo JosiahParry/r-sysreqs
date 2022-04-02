@@ -1,1 +1,1 @@
-[{"Package":"sodium","SystemRequirements":"libsodium (>= 1.0.3)"}]
+[{"Package":"sodium","Version":"1.2.0","SystemRequirements":"libsodium (>= 1.0.3)"}]

@@ -1,1 +1,1 @@
-[{"Package":"implyr","SystemRequirements":"Impala driver to support a 'DBI'-compatible R\ninterface"}]
+[{"Package":"implyr","Version":"0.4.0","SystemRequirements":"Impala driver to support a 'DBI'-compatible R\ninterface"}]

@@ -1,1 +1,1 @@
-[{"Package":"clinUtils","SystemRequirements":"pandoc (for export clin DT to a file - inclusion of\nlist of interactive plots/objects with knitr)"}]
+[{"Package":"clinUtils","Version":"0.1.1","SystemRequirements":"pandoc (for export clin DT to a file - inclusion of\nlist of interactive plots/objects with knitr)"}]

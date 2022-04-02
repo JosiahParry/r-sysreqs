@@ -1,1 +1,1 @@
-[{"Package":"cogmapr","SystemRequirements":"libcurl: libcurl-devel (rpm) or\nlibcurl4-openssl-dev (deb)."}]
+[{"Package":"cogmapr","Version":"0.9.3","SystemRequirements":"libcurl: libcurl-devel (rpm) or\nlibcurl4-openssl-dev (deb)."}]

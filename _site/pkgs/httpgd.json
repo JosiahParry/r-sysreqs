@@ -1,1 +1,1 @@
-[{"Package":"httpgd","SystemRequirements":"C++17, libpng, cairo, freetype2, fontconfig"}]
+[{"Package":"httpgd","Version":"1.3.0","SystemRequirements":"C++17, libpng, cairo, freetype2, fontconfig"}]

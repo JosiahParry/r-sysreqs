@@ -1,1 +1,1 @@
-[{"Package":"image.CannyEdges","SystemRequirements":"libpng, fftw3"}]
+[{"Package":"image.CannyEdges","Version":"0.1.0","SystemRequirements":"libpng, fftw3"}]

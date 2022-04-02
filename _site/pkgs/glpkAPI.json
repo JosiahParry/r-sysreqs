@@ -1,1 +1,1 @@
-[{"Package":"glpkAPI","SystemRequirements":"GLPK (>= 4.42)"}]
+[{"Package":"glpkAPI","Version":"1.3.3","SystemRequirements":"GLPK (>= 4.42)"}]

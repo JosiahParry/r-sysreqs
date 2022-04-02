@@ -1,1 +1,1 @@
-[{"Package":"fitbitViz","SystemRequirements":"update: apt-get -y update (deb)"}]
+[{"Package":"fitbitViz","Version":"1.0.4","SystemRequirements":"update: apt-get -y update (deb)"}]

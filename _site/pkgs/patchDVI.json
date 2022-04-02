@@ -1,1 +1,1 @@
-[{"Package":"patchDVI","SystemRequirements":"The 'Japanese.Rnw' vignette requires uplatex and\ndvipdfmx."}]
+[{"Package":"patchDVI","Version":"1.10.1","SystemRequirements":"The 'Japanese.Rnw' vignette requires uplatex and\ndvipdfmx."}]

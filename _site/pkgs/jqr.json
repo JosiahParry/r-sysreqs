@@ -1,1 +1,1 @@
-[{"Package":"jqr","SystemRequirements":"libjq: jq-devel (rpm) or libjq-dev (deb)"}]
+[{"Package":"jqr","Version":"1.2.3","SystemRequirements":"libjq: jq-devel (rpm) or libjq-dev (deb)"}]

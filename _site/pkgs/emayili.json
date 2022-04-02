@@ -1,1 +1,1 @@
-[{"Package":"emayili","SystemRequirements":"The function render() requires Pandoc\n(http://pandoc.org). To use PGP/GnuPG encryption requires gpg."}]
+[{"Package":"emayili","Version":"0.7.5","SystemRequirements":"The function render() requires Pandoc\n(http://pandoc.org). To use PGP/GnuPG encryption requires gpg."}]

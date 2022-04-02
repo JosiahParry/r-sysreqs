@@ -1,1 +1,1 @@
-[{"Package":"rPref","SystemRequirements":"C++11, GNU make, Windows: cmd.exe and cscript.exe"}]
+[{"Package":"rPref","Version":"1.3","SystemRequirements":"C++11, GNU make, Windows: cmd.exe and cscript.exe"}]

@@ -1,1 +1,1 @@
-[{"Package":"sysfonts","SystemRequirements":"zlib, libpng, FreeType"}]
+[{"Package":"sysfonts","Version":"0.8.8","SystemRequirements":"zlib, libpng, FreeType"}]

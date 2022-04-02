@@ -1,1 +1,1 @@
-[{"Package":"minidown","SystemRequirements":"pandoc (>= 2.7.2) - http://pandoc.org"}]
+[{"Package":"minidown","Version":"0.4.0","SystemRequirements":"pandoc (>= 2.7.2) - http://pandoc.org"}]

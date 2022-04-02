@@ -1,1 +1,1 @@
-[{"Package":"xslt","SystemRequirements":"libxslt: libxslt1-dev (deb), libxslt-devel (rpm)"}]
+[{"Package":"xslt","Version":"1.4.3","SystemRequirements":"libxslt: libxslt1-dev (deb), libxslt-devel (rpm)"}]

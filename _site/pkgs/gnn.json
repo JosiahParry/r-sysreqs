@@ -1,1 +1,1 @@
-[{"Package":"gnn","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]
+[{"Package":"gnn","Version":"0.0-3","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]

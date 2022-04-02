@@ -1,1 +1,1 @@
-[{"Package":"rkeops","SystemRequirements":"C++11, cmake (>= 3.10), clang (optional), CUDA\n(optional but recommended)"}]
+[{"Package":"rkeops","Version":"1.4.2.2","SystemRequirements":"C++11, cmake (>= 3.10), clang (optional), CUDA\n(optional but recommended)"}]

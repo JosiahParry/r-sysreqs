@@ -1,1 +1,1 @@
-[{"Package":"loo","SystemRequirements":"pandoc (>= 1.12.3), pandoc-citeproc"}]
+[{"Package":"loo","Version":"2.5.1","SystemRequirements":"pandoc (>= 1.12.3), pandoc-citeproc"}]

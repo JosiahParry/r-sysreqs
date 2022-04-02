@@ -1,1 +1,1 @@
-[{"Package":"GWpcor","SystemRequirements":"C++11, GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>=\n4.8.0)"}]
+[{"Package":"GWpcor","Version":"0.1.7","SystemRequirements":"C++11, GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>=\n4.8.0)"}]

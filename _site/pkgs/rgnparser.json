@@ -1,1 +1,1 @@
-[{"Package":"rgnparser","SystemRequirements":"gnparser (<https://github.com/gnames/gnparser>)"}]
+[{"Package":"rgnparser","Version":"0.2.0","SystemRequirements":"gnparser (<https://github.com/gnames/gnparser>)"}]

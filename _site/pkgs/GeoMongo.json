@@ -1,1 +1,1 @@
-[{"Package":"GeoMongo","SystemRequirements":"MongoDB (>= 3.4.0), Python (>= 2.7). Installation\ninstructions and links can be found in the README file."}]
+[{"Package":"GeoMongo","Version":"1.0.3","SystemRequirements":"MongoDB (>= 3.4.0), Python (>= 2.7). Installation\ninstructions and links can be found in the README file."}]

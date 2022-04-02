@@ -1,1 +1,1 @@
-[{"Package":"rstantools","SystemRequirements":"pandoc, C++14"}]
+[{"Package":"rstantools","Version":"2.1.1","SystemRequirements":"pandoc, C++14"}]

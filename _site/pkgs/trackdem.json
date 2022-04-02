@@ -1,1 +1,1 @@
-[{"Package":"trackdem","SystemRequirements":"Python (>=2.7), Libav, ExifTool"}]
+[{"Package":"trackdem","Version":"0.6","SystemRequirements":"Python (>=2.7), Libav, ExifTool"}]

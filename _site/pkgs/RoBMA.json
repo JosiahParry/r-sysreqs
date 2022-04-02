@@ -1,1 +1,1 @@
-[{"Package":"RoBMA","SystemRequirements":"JAGS >= 4.3.0 (https://mcmc-jags.sourceforge.io/)"}]
+[{"Package":"RoBMA","Version":"2.1.2","SystemRequirements":"JAGS >= 4.3.0 (https://mcmc-jags.sourceforge.io/)"}]

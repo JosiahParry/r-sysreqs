@@ -1,1 +1,1 @@
-[{"Package":"neuronorm","SystemRequirements":"cmake, FSL"}]
+[{"Package":"neuronorm","Version":"1.0.1","SystemRequirements":"cmake, FSL"}]

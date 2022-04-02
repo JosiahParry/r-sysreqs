@@ -1,1 +1,1 @@
-[{"Package":"wordnet","SystemRequirements":"Java (>= 5.0); WordNet database files (direct\ndownload:\n<https://wordnetcode.princeton.edu/3.0/WNdb-3.0.tar.gz>; Debian\nand Fedora package: wordnet)"}]
+[{"Package":"wordnet","Version":"0.1-15","SystemRequirements":"Java (>= 5.0); WordNet database files (direct\ndownload:\n<https://wordnetcode.princeton.edu/3.0/WNdb-3.0.tar.gz>; Debian\nand Fedora package: wordnet)"}]

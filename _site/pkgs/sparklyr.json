@@ -1,1 +1,1 @@
-[{"Package":"sparklyr","SystemRequirements":"Spark: 1.6.x, 2.x, or 3.x"}]
+[{"Package":"sparklyr","Version":"1.7.5","SystemRequirements":"Spark: 1.6.x, 2.x, or 3.x"}]

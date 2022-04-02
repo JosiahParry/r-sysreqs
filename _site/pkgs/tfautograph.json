@@ -1,1 +1,1 @@
-[{"Package":"tfautograph","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]
+[{"Package":"tfautograph","Version":"0.3.2","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]

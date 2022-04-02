@@ -1,1 +1,1 @@
-[{"Package":"IRkernel","SystemRequirements":"jupyter, jupyter_kernel_test (Python package for\ntesting)"}]
+[{"Package":"IRkernel","Version":"1.3","SystemRequirements":"jupyter, jupyter_kernel_test (Python package for\ntesting)"}]

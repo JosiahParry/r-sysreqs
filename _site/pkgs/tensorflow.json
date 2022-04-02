@@ -1,1 +1,1 @@
-[{"Package":"tensorflow","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]
+[{"Package":"tensorflow","Version":"2.8.0","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]

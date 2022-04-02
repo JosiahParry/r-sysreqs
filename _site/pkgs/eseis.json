@@ -1,1 +1,1 @@
-[{"Package":"eseis","SystemRequirements":"gipptools dataselect"}]
+[{"Package":"eseis","Version":"0.6.0","SystemRequirements":"gipptools dataselect"}]

@@ -1,1 +1,1 @@
-[{"Package":"rbedrock","SystemRequirements":"C++11, cmake, zlib, GNU make, Solaris: g++ is a\nrequirement"}]
+[{"Package":"rbedrock","Version":"0.2.0","SystemRequirements":"C++11, cmake, zlib, GNU make, Solaris: g++ is a\nrequirement"}]

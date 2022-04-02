@@ -1,1 +1,1 @@
-[{"Package":"magickGUI","SystemRequirements":"ImageMagick (>= 6.9.5.4)"}]
+[{"Package":"magickGUI","Version":"1.3.0","SystemRequirements":"ImageMagick (>= 6.9.5.4)"}]

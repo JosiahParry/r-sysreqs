@@ -1,1 +1,1 @@
-[{"Package":"SDMtune","SystemRequirements":"Java (>= 8) and maxent.jar >= 3.4.1 to use Maxent"}]
+[{"Package":"SDMtune","Version":"1.1.5","SystemRequirements":"Java (>= 8) and maxent.jar >= 3.4.1 to use Maxent"}]

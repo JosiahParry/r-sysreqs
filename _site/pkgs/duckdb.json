@@ -1,1 +1,1 @@
-[{"Package":"duckdb","SystemRequirements":"C++11, GCC on Solaris"}]
+[{"Package":"duckdb","Version":"0.3.2-2","SystemRequirements":"C++11, GCC on Solaris"}]

@@ -1,1 +1,1 @@
-[{"Package":"tfestimators","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]
+[{"Package":"tfestimators","Version":"1.9.2","SystemRequirements":"TensorFlow (https://www.tensorflow.org/)"}]

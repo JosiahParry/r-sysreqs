@@ -1,1 +1,1 @@
-[{"Package":"rpostgis","SystemRequirements":"'PostgreSQL' with 'PostGIS' extension"}]
+[{"Package":"rpostgis","Version":"1.4.3","SystemRequirements":"'PostgreSQL' with 'PostGIS' extension"}]

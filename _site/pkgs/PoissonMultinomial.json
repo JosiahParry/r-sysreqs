@@ -1,1 +1,1 @@
-[{"Package":"PoissonMultinomial","SystemRequirements":"fftw3(>=3.3)"}]
+[{"Package":"PoissonMultinomial","Version":"1.0","SystemRequirements":"fftw3(>=3.3)"}]

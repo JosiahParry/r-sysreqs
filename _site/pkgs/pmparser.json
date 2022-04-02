@@ -1,1 +1,1 @@
-[{"Package":"pmparser","SystemRequirements":"head, unzip, sqlite"}]
+[{"Package":"pmparser","Version":"1.0.4","SystemRequirements":"head, unzip, sqlite"}]

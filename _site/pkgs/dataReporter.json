@@ -1,1 +1,1 @@
-[{"Package":"dataReporter","SystemRequirements":"pandoc (>= 2.0; https://pandoc.org), git, whoami"}]
+[{"Package":"dataReporter","Version":"1.0.2","SystemRequirements":"pandoc (>= 2.0; https://pandoc.org), git, whoami"}]

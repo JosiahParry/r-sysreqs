@@ -1,1 +1,1 @@
-[{"Package":"RQuantLib","SystemRequirements":"QuantLib library (>= 1.14) from\nhttps://quantlib.org, Boost library from https://www.boost.org"}]
+[{"Package":"RQuantLib","Version":"0.4.15","SystemRequirements":"QuantLib library (>= 1.14) from\nhttps://quantlib.org, Boost library from https://www.boost.org"}]

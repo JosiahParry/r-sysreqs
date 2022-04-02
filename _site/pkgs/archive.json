@@ -1,1 +1,1 @@
-[{"Package":"archive","SystemRequirements":"C++11, libarchive: libarchive-dev (deb),\nlibarchive-devel (rpm), libarchive (homebrew), libarchive_dev\n(csw)"}]
+[{"Package":"archive","Version":"1.1.4","SystemRequirements":"C++11, libarchive: libarchive-dev (deb),\nlibarchive-devel (rpm), libarchive (homebrew), libarchive_dev\n(csw)"}]

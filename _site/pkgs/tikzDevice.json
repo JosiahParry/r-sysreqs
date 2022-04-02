@@ -1,1 +1,1 @@
-[{"Package":"tikzDevice","SystemRequirements":"pgf (>= 2.00)"}]
+[{"Package":"tikzDevice","Version":"0.12.3.1","SystemRequirements":"pgf (>= 2.00)"}]

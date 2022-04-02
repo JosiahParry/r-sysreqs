@@ -1,1 +1,1 @@
-[{"Package":"topicmodels.etm","SystemRequirements":"LibTorch (https://pytorch.org/)"}]
+[{"Package":"topicmodels.etm","Version":"0.1.0","SystemRequirements":"LibTorch (https://pytorch.org/)"}]

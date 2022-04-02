@@ -1,1 +1,1 @@
-[{"Package":"httpuv","SystemRequirements":"GNU make, C++11, zlib"}]
+[{"Package":"httpuv","Version":"1.6.5","SystemRequirements":"GNU make, C++11, zlib"}]

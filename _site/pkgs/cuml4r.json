@@ -1,1 +1,1 @@
-[{"Package":"cuml4r","SystemRequirements":"RAPIDS cuML (see https://rapids.ai/start.html)"}]
+[{"Package":"cuml4r","Version":"0.1.0","SystemRequirements":"RAPIDS cuML (see https://rapids.ai/start.html)"}]

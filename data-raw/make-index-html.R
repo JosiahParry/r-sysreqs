@@ -1,12 +1,27 @@
 library(htmltools)
 
 
-fps <- list.files("rules", full.names = TRUE)
-lib_names <- stringr::str_remove(basename(fps), ".json")
+# pkgs index --------------------------------------------------------------
+
+fps <- list.files("pkgs")
+pkg_names <- stringr::str_remove(basename(fps), ".json")
+
+
 
 tags$ul(
-  lapply(lib_names, tags$li)
-)
+  purrr::map2(fps, pkg_names, ~{
+    tags$li(tags$a(.y, href = fs::path( .x)))
+  })
+) |>
+  save_html("pkgs/index.html")
+
+# Rules index -------------------------------------------------------------
+
+
+
+fps <- list.files("rules")
+lib_names <- stringr::str_remove(basename(fps), ".json")
+
 
 tags$ul(
   purrr::map2(fps, lib_names, ~{
@@ -14,6 +29,10 @@ tags$ul(
   })
 ) |>
   save_html("rules/index.html")
+
+
+
+# root index --------------------------------------------------------------
 
 
 tags$ul(

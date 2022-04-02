@@ -1,1 +1,1 @@
-[{"Package":"botor","SystemRequirements":"Python and boto3\n(https://aws.amazon.com/sdk-for-python)"}]
+[{"Package":"botor","Version":"0.3.0","SystemRequirements":"Python and boto3\n(https://aws.amazon.com/sdk-for-python)"}]

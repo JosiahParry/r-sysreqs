@@ -1,1 +1,1 @@
-[{"Package":"pomp","SystemRequirements":"For Windows users, Rtools (see\nhttps://cran.r-project.org/bin/windows/Rtools/)."}]
+[{"Package":"pomp","Version":"4.1","SystemRequirements":"For Windows users, Rtools (see\nhttps://cran.r-project.org/bin/windows/Rtools/)."}]

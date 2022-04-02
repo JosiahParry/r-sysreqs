@@ -1,1 +1,1 @@
-[{"Package":"eplusr","SystemRequirements":"EnergyPlus (optional) (<https://energyplus.net>);\nudunits2"}]
+[{"Package":"eplusr","Version":"0.15.1","SystemRequirements":"EnergyPlus (optional) (<https://energyplus.net>);\nudunits2"}]

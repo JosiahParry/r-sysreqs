@@ -1,1 +1,1 @@
-[{"Package":"sdcTable","SystemRequirements":"GLPK library, including -dev or -devel part"}]
+[{"Package":"sdcTable","Version":"0.32.2","SystemRequirements":"GLPK library, including -dev or -devel part"}]

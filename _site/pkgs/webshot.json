@@ -1,1 +1,1 @@
-[{"Package":"webshot","SystemRequirements":"PhantomJS (http://phantomjs.org) for taking\nscreenshots, ImageMagick (http://www.imagemagick.org) or\nGraphicsMagick (http://www.graphicsmagick.org) and OptiPNG\n(http://optipng.sourceforge.net) for manipulating images."}]
+[{"Package":"webshot","Version":"0.5.2","SystemRequirements":"PhantomJS (http://phantomjs.org) for taking\nscreenshots, ImageMagick (http://www.imagemagick.org) or\nGraphicsMagick (http://www.graphicsmagick.org) and OptiPNG\n(http://optipng.sourceforge.net) for manipulating images."}]

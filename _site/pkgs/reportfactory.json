@@ -1,1 +1,1 @@
-[{"Package":"reportfactory","SystemRequirements":"pandoc (>= 1.14) - http://pandoc.org"}]
+[{"Package":"reportfactory","Version":"0.4.0","SystemRequirements":"pandoc (>= 1.14) - http://pandoc.org"}]

@@ -1,1 +1,1 @@
-[{"Package":"concaveman","SystemRequirements":"GDAL (>= 2.0.0), GEOS (>= 3.3.0), PROJ.4 (>= 4.8.0)"}]
+[{"Package":"concaveman","Version":"1.1.0","SystemRequirements":"GDAL (>= 2.0.0), GEOS (>= 3.3.0), PROJ.4 (>= 4.8.0)"}]

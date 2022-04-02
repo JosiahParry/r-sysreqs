@@ -1,1 +1,1 @@
-[{"Package":"BayesFM","SystemRequirements":"gfortran (>= 4.6.3)"}]
+[{"Package":"BayesFM","Version":"0.1.5","SystemRequirements":"gfortran (>= 4.6.3)"}]

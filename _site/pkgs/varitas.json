@@ -1,1 +1,1 @@
-[{"Package":"varitas","SystemRequirements":"perl, bedtools (>=2.27.1), bwa"}]
+[{"Package":"varitas","Version":"0.0.2","SystemRequirements":"perl, bedtools (>=2.27.1), bwa"}]

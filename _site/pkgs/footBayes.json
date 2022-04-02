@@ -1,1 +1,1 @@
-[{"Package":"footBayes","SystemRequirements":"pandoc (>= 1.12.3), pandoc-citeproc"}]
+[{"Package":"footBayes","Version":"0.1.0","SystemRequirements":"pandoc (>= 1.12.3), pandoc-citeproc"}]

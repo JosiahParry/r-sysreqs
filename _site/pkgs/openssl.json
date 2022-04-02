@@ -1,1 +1,1 @@
-[{"Package":"openssl","SystemRequirements":"OpenSSL >= 1.0.2"}]
+[{"Package":"openssl","Version":"2.0.0","SystemRequirements":"OpenSSL >= 1.0.2"}]

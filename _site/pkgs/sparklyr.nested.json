@@ -1,1 +1,1 @@
-[{"Package":"sparklyr.nested","SystemRequirements":"Spark: 1.6.x or 2.x"}]
+[{"Package":"sparklyr.nested","Version":"0.0.3","SystemRequirements":"Spark: 1.6.x or 2.x"}]

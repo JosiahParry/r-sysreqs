@@ -1,1 +1,1 @@
-[{"Package":"kerastuneR","SystemRequirements":"TensorFlow >= 2.0 (https://www.tensorflow.org/)"}]
+[{"Package":"kerastuneR","Version":"0.1.0.5","SystemRequirements":"TensorFlow >= 2.0 (https://www.tensorflow.org/)"}]

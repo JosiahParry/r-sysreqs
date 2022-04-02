@@ -1,1 +1,1 @@
-[{"Package":"Statsomat","SystemRequirements":"For all functions resp. apps: pandoc, LaTeX. For\nthe edapy() function resp. Statsomat/EDAPY app: Python (>=3)."}]
+[{"Package":"Statsomat","Version":"1.1.0","SystemRequirements":"For all functions resp. apps: pandoc, LaTeX. For\nthe edapy() function resp. Statsomat/EDAPY app: Python (>=3)."}]

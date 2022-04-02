@@ -1,1 +1,1 @@
-[{"Package":"MaOEA","SystemRequirements":"Python 3.x with following modules: PyGMO, NumPy,\nand cloudpickle"}]
+[{"Package":"MaOEA","Version":"0.6.2","SystemRequirements":"Python 3.x with following modules: PyGMO, NumPy,\nand cloudpickle"}]

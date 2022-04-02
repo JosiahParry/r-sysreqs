@@ -1,1 +1,1 @@
-[{"Package":"sgmcmc","SystemRequirements":"TensorFlow (https://www.tensorflow.org/),\nTensorFlow Probability\n(https://www.tensorflow.org/probability/)"}]
+[{"Package":"sgmcmc","Version":"0.2.5","SystemRequirements":"TensorFlow (https://www.tensorflow.org/),\nTensorFlow Probability\n(https://www.tensorflow.org/probability/)"}]

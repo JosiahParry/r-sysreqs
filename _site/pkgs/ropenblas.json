@@ -1,1 +1,1 @@
-[{"Package":"ropenblas","SystemRequirements":"GNU Make, GCC Compiler Suite (C and Fortran)"}]
+[{"Package":"ropenblas","Version":"0.2.10","SystemRequirements":"GNU Make, GCC Compiler Suite (C and Fortran)"}]

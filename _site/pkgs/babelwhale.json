@@ -1,1 +1,1 @@
-[{"Package":"babelwhale","SystemRequirements":"Docker and/or Singularity (>=3.0)"}]
+[{"Package":"babelwhale","Version":"1.0.3","SystemRequirements":"Docker and/or Singularity (>=3.0)"}]

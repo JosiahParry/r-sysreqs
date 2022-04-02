@@ -10,7 +10,7 @@ name_raw <- sapply(rules, `[[`, "name")
 download_url <- sapply(rules, `[[`, "download_url")
 
 download.file(download_url,
-              fs::path("rules", name_raw))
+              fs::path("_site", "rules", name_raw))
 
 
 # Get patterns ------------------------------------------------------------
@@ -27,7 +27,7 @@ patterns <- lapply(all_rules_raw, \(.x) unlist(purrr::pluck(.x, "patterns"))) |>
 lapply(all_rules_raw, \(.x) unlist(.x[["patterns"]])) |>
   setNames(lib_names)
 
-jsonlite::write_json(patterns, "patterns.json")
+jsonlite::write_json(patterns, "_site/patterns.json")
 
 
 # Write packages ----------------------------------------------------------
@@ -41,7 +41,7 @@ for (i in 1:nrow(sysreqs)) {
   pkg <- sysreqs[i,]
   jsonlite::write_json(
     pkg,
-    fs::path("pkgs", pkg[["Package"]], ext = "json")
+    fs::path("_site", "pkgs", pkg[["Package"]], ext = "json")
   )
 }
 

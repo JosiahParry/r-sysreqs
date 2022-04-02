@@ -1,1 +1,1 @@
-[{"Package":"rstanarm","SystemRequirements":"GNU make, pandoc (>= 1.12.3), pandoc-citeproc"}]
+[{"Package":"rstanarm","Version":"2.21.1","SystemRequirements":"GNU make, pandoc (>= 1.12.3), pandoc-citeproc"}]

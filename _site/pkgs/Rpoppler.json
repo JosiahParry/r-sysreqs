@@ -1,1 +1,1 @@
-[{"Package":"Rpoppler","SystemRequirements":"Poppler Glib interface headers and libraries\n(<http://poppler.freedesktop.org/>) [Debian/Ubuntu:\nlibpoppler-glib-dev, Fedora: poppler-glib-devel]"}]
+[{"Package":"Rpoppler","Version":"0.1-0","SystemRequirements":"Poppler Glib interface headers and libraries\n(<http://poppler.freedesktop.org/>) [Debian/Ubuntu:\nlibpoppler-glib-dev, Fedora: poppler-glib-devel]"}]

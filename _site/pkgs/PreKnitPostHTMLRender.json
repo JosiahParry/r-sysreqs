@@ -1,1 +1,1 @@
-[{"Package":"PreKnitPostHTMLRender","SystemRequirements":"pandoc (>= 1.12.3) -\nhttp://johnmacfarlane.net/pandoc"}]
+[{"Package":"PreKnitPostHTMLRender","Version":"0.1.0","SystemRequirements":"pandoc (>= 1.12.3) -\nhttp://johnmacfarlane.net/pandoc"}]

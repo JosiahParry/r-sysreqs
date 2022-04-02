@@ -1,1 +1,1 @@
-[{"Package":"quarto","SystemRequirements":"Quarto command line tools\n(https://github.com/quarto-dev/quarto-cli)."}]
+[{"Package":"quarto","Version":"1.1","SystemRequirements":"Quarto command line tools\n(https://github.com/quarto-dev/quarto-cli)."}]

@@ -1,1 +1,1 @@
-[{"Package":"BayesPostEst","SystemRequirements":"JAGS (http://mcmc-jags.sourceforge.io)"}]
+[{"Package":"BayesPostEst","Version":"0.3.2","SystemRequirements":"JAGS (http://mcmc-jags.sourceforge.io)"}]

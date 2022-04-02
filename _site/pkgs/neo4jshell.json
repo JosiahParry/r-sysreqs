@@ -1,1 +1,1 @@
-[{"Package":"neo4jshell","SystemRequirements":"neo4j - http://www.neo4j.com, cypher-shell -\nhttps://github.com/neo4j/cypher-shell/releases"}]
+[{"Package":"neo4jshell","Version":"0.1.1","SystemRequirements":"neo4j - http://www.neo4j.com, cypher-shell -\nhttps://github.com/neo4j/cypher-shell/releases"}]

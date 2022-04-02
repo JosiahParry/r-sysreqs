@@ -1,1 +1,1 @@
-[{"Package":"svDialogs","SystemRequirements":"zenity, yad"}]
+[{"Package":"svDialogs","Version":"1.0.3","SystemRequirements":"zenity, yad"}]

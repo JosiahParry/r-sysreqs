@@ -1,1 +1,1 @@
-[{"Package":"symengine","SystemRequirements":"GNU make, cmake, gmp, mpfr"}]
+[{"Package":"symengine","Version":"0.1.6","SystemRequirements":"GNU make, cmake, gmp, mpfr"}]

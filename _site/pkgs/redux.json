@@ -1,1 +1,1 @@
-[{"Package":"redux","SystemRequirements":"hiredis"}]
+[{"Package":"redux","Version":"1.1.3","SystemRequirements":"hiredis"}]

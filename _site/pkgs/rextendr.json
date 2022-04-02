@@ -1,1 +1,1 @@
-[{"Package":"rextendr","SystemRequirements":"Rust 'cargo'; the crate 'libR-sys' must compile\nwithout error"}]
+[{"Package":"rextendr","Version":"0.2.0","SystemRequirements":"Rust 'cargo'; the crate 'libR-sys' must compile\nwithout error"}]

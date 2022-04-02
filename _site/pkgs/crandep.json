@@ -1,1 +1,1 @@
-[{"Package":"crandep","SystemRequirements":"pandoc (>= 1.12.3) - http://pandoc.org"}]
+[{"Package":"crandep","Version":"0.3.0","SystemRequirements":"pandoc (>= 1.12.3) - http://pandoc.org"}]

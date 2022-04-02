@@ -1,1 +1,1 @@
-[{"Package":"libsoc","SystemRequirements":"libxml2: libxml2-dev (deb), libxml2-devel (rpm)"}]
+[{"Package":"libsoc","Version":"0.7.3","SystemRequirements":"libxml2: libxml2-dev (deb), libxml2-devel (rpm)"}]

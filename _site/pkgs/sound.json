@@ -1,1 +1,1 @@
-[{"Package":"sound","SystemRequirements":"For playing sounds, a command line system tool for\nplaying wav-files is required."}]
+[{"Package":"sound","Version":"1.4.5","SystemRequirements":"For playing sounds, a command line system tool for\nplaying wav-files is required."}]

@@ -1,1 +1,1 @@
-[{"Package":"RNetCDF","SystemRequirements":"netcdf udunits-2"}]
+[{"Package":"RNetCDF","Version":"2.5-2","SystemRequirements":"netcdf udunits-2"}]

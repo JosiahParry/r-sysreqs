@@ -1,1 +1,1 @@
-[{"Package":"PoissonBinomial","SystemRequirements":"fftw3 (>= 3.3)"}]
+[{"Package":"PoissonBinomial","Version":"1.2.4","SystemRequirements":"fftw3 (>= 3.3)"}]

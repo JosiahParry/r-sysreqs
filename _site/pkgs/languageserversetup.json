@@ -1,1 +1,1 @@
-[{"Package":"languageserversetup","SystemRequirements":"procps (linux), ps (macos), wmic (windows)"}]
+[{"Package":"languageserversetup","Version":"0.1.2","SystemRequirements":"procps (linux), ps (macos), wmic (windows)"}]

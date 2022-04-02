@@ -1,1 +1,1 @@
-[{"Package":"baker","SystemRequirements":"JAGS (>= 4.1.0) (http://mcmc-jags.sourceforge.net)"}]
+[{"Package":"baker","Version":"1.0.0","SystemRequirements":"JAGS (>= 4.1.0) (http://mcmc-jags.sourceforge.net)"}]

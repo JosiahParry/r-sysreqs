@@ -1,1 +1,1 @@
-[{"Package":"Rmosek","SystemRequirements":"MOSEK (>= 6) and MOSEK License (>= 6)"}]
+[{"Package":"Rmosek","Version":"1.3.5","SystemRequirements":"MOSEK (>= 6) and MOSEK License (>= 6)"}]

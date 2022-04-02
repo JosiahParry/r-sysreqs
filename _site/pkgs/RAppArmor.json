@@ -1,1 +1,1 @@
-[{"Package":"RAppArmor","SystemRequirements":"linux (>= 3.0), libapparmor-dev"}]
+[{"Package":"RAppArmor","Version":"3.2.2","SystemRequirements":"linux (>= 3.0), libapparmor-dev"}]

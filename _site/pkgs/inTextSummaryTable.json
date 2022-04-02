@@ -1,1 +1,1 @@
-[{"Package":"inTextSummaryTable","SystemRequirements":"pandoc (to export an interactive summary table to a\nfile)"}]
+[{"Package":"inTextSummaryTable","Version":"3.1.1","SystemRequirements":"pandoc (to export an interactive summary table to a\nfile)"}]

@@ -1,1 +1,1 @@
-[{"Package":"moveVis","SystemRequirements":"ImageMagick, FFmpeg, libav"}]
+[{"Package":"moveVis","Version":"0.10.5","SystemRequirements":"ImageMagick, FFmpeg, libav"}]

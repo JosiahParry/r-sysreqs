@@ -1,1 +1,1 @@
-[{"Package":"tfaddons","SystemRequirements":"TensorFlow >= 2.0 (https://www.tensorflow.org/)"}]
+[{"Package":"tfaddons","Version":"0.10.0","SystemRequirements":"TensorFlow >= 2.0 (https://www.tensorflow.org/)"}]

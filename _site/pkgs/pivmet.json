@@ -1,1 +1,1 @@
-[{"Package":"pivmet","SystemRequirements":"pandoc (>= 1.12.3), pandoc-citeproc"}]
+[{"Package":"pivmet","Version":"0.4.0","SystemRequirements":"pandoc (>= 1.12.3), pandoc-citeproc"}]

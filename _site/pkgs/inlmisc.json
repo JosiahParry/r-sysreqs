@@ -1,1 +1,1 @@
-[{"Package":"inlmisc","SystemRequirements":"pandoc (https://pandoc.org/) and phantomjs\n(https://phantomjs.org/)"}]
+[{"Package":"inlmisc","Version":"0.5.5","SystemRequirements":"pandoc (https://pandoc.org/) and phantomjs\n(https://phantomjs.org/)"}]

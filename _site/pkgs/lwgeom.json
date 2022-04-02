@@ -1,1 +1,1 @@
-[{"Package":"lwgeom","SystemRequirements":"GEOS (>= 3.5.0), PROJ (>= 4.8.0), sqlite3"}]
+[{"Package":"lwgeom","Version":"0.2-8","SystemRequirements":"GEOS (>= 3.5.0), PROJ (>= 4.8.0), sqlite3"}]
