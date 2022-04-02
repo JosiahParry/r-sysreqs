@@ -1,0 +1,1 @@
+[{"Package":"IceSat2R","SystemRequirements":"gdal-bin: apt install -y gdal-bin (deb),\nlibgdal-dev: apt install -y libgdal-dev (deb), libudunits2-dev:\napt install -y libudunits2-dev (deb), libgeos-dev: apt install\n-y libgeos-dev (deb), libproj-dev: apt install -y libproj-dev\n(deb), unzip: apt install unzip (deb)"}]

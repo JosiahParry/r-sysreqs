@@ -1,0 +1,1 @@
+[{"Package":"cartogramR","SystemRequirements":"FFTW (>=3.3.1); possible package: fftw-devel (rpm),\nlibfftw3-dev (deb) or fftw (brew)."}]

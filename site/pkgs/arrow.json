@@ -1,0 +1,1 @@
+[{"Package":"arrow","SystemRequirements":"C++11; for AWS S3 support on Linux, libcurl and\nopenssl (optional)"}]

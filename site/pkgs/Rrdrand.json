@@ -1,0 +1,1 @@
+[{"Package":"Rrdrand","SystemRequirements":"need the RDRAND instruction on Intel CPU. and C\ncompiler must be able to compile a GNU-style in-line assembler."}]

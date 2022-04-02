@@ -1,0 +1,1 @@
+[{"Package":"geojsonR","SystemRequirements":"libarmadillo: apt-get install -y libarmadillo-dev\n(deb)"}]

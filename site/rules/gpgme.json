@@ -1,0 +1,64 @@
+{
+    "patterns": ["\\bgpgme\\b"],
+    "dependencies": [
+      {
+        "packages": ["libgpgme11-dev"],
+        "constraints": [
+          {
+            "os": "linux",
+            "distribution": "ubuntu"
+          },
+          {
+            "os": "linux",
+            "distribution": "debian"
+          }
+        ]
+      },
+      {
+        "packages": ["gpgme-devel"],
+        "constraints": [
+          {
+            "os": "linux",
+            "distribution": "centos",
+            "versions": ["6", "7"]
+          }
+        ]
+      },
+      {
+        "packages": ["gpgme-devel"],
+        "pre_install": [
+          { "command": "dnf install -y dnf-plugins-core" },
+          { "command": "dnf config-manager --set-enabled powertools" }
+        ],
+        "constraints": [
+          {
+            "os": "linux",
+            "distribution": "centos",
+            "versions": ["8"]
+          }
+        ]
+      },
+      {
+        "packages": ["gpgme"],
+        "constraints": [
+          {
+            "os": "linux",
+            "distribution": "redhat"
+          }
+        ]
+      },
+      {
+        "packages": ["libgpgme-devel"],
+        "constraints": [
+          {
+            "os": "linux",
+            "distribution": "opensuse"
+          },
+          {
+            "os": "linux",
+            "distribution": "sle"
+          }
+        ]
+      }
+    ]
+  }

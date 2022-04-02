@@ -1,0 +1,1 @@
+[{"Package":"rgdal","SystemRequirements":"PROJ (>= 4.8.0, https://proj.org/download.html) and\nGDAL (>= 1.11.4, https://gdal.org/download.html), with versions\neither (A) PROJ < 6 and GDAL < 3 or (B) PROJ >= 6 and GDAL >=\n3. For degraded PROJ >= 6 and GDAL < 3, use the configure\nargument '--with-proj_api=\"proj_api.h\"'."}]

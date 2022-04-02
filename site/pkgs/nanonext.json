@@ -1,0 +1,1 @@
+[{"Package":"nanonext","SystemRequirements":"either 'libnng' (deb: libnng-dev, rpm: nng-devel)\nor 'cmake' (to compile from source)"}]

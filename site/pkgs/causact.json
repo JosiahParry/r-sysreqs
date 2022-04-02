@@ -1,0 +1,1 @@
+[{"Package":"causact","SystemRequirements":"Python and TensorFlow are needed for Bayesian\ninference computations; Python (>= 2.7.0) with header files and\nshared library; TensorFlow (= v1.14;\nhttps://www.tensorflow.org/); TensorFlow Probability (= v0.7.0;\nhttps://www.tensorflow.org/probability/)"}]

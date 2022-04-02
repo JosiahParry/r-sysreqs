@@ -1,0 +1,1 @@
+[{"Package":"RGF","SystemRequirements":"Python (>= 3.6), rgf_python, scikit-learn (>=\n0.18.0), scipy, numpy. Detailed installation instructions for\neach operating system can be found in the README file."}]

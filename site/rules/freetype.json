@@ -1,0 +1,55 @@
+{
+  "patterns": ["\\bfreetype\\b", "\\bfreetype2\\b"],
+  "dependencies": [
+    {
+      "packages": ["libfreetype6-dev"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "ubuntu"
+        },
+        {
+          "os": "linux",
+          "distribution": "debian"
+        }
+      ]
+    },
+    {
+      "packages": ["freetype-devel"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "centos"
+        },
+        {
+          "os": "linux",
+          "distribution": "redhat"
+        }
+      ]
+    },
+    {
+      "packages": ["freetype2-devel"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "opensuse"
+        },
+        {
+          "os": "linux",
+          "distribution": "sle"
+        }
+      ]
+    },
+    {
+      "packages": [
+        "mingw-w64-x86_64-freetype",
+        "mingw-w64-i686-freetype"
+      ],
+      "constraints": [
+        {
+          "os": "windows"
+        }
+      ]
+    }
+  ]
+}

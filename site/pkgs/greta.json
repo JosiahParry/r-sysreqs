@@ -1,0 +1,1 @@
+[{"Package":"greta","SystemRequirements":"Python (>= 2.7.0) with header files and shared\nlibrary; TensorFlow (v1.14; https://www.tensorflow.org/);\nTensorFlow Probability (v0.7.0;\nhttps://www.tensorflow.org/probability/)"}]

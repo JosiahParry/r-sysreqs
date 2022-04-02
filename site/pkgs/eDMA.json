@@ -1,0 +1,1 @@
+[{"Package":"eDMA","SystemRequirements":"Requires the OpenMP library for parallel computing.\nIf the OpenMP library is not available, the code is executed\nsequentially and a warning is printed."}]

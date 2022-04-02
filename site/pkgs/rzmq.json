@@ -1,0 +1,1 @@
+[{"Package":"rzmq","SystemRequirements":"ZeroMQ >= 3.0.0: libzmq3-dev (deb) or zeromq-devel\n(rpm)"}]

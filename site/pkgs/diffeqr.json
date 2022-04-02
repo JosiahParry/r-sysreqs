@@ -1,0 +1,1 @@
+[{"Package":"diffeqr","SystemRequirements":"Julia (>= 1.5), DifferentialEquations.jl,\nModelingToolkit.jl"}]

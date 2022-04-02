@@ -1,0 +1,1 @@
+[{"Package":"h3jsr","SystemRequirements":"V8 engine version 6+ is needed for modern JS and\nWASM support. On Debian / Ubuntu install either libv8-dev or\nlibnode-dev, on Fedora use v8-devel."}]

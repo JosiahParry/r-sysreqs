@@ -1,0 +1,1 @@
+[{"Package":"mlr","SystemRequirements":"gdal (optional), geos (optional), proj (optional),\nudunits (optional), gsl (optional), gmp (optional), glu\n(optional), jags (optional), mpfr (optional), openmpi\n(optional)"}]

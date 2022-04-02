@@ -1,0 +1,1 @@
+[{"Package":"bspm","SystemRequirements":"systemd, dbus-python, PyGObject,\npython-(dnf|apt|alpm)"}]

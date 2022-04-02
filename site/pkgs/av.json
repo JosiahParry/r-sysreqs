@@ -1,0 +1,1 @@
+[{"Package":"av","SystemRequirements":"FFmpeg (>= 3.2); with at least libx264 and lame\n(mp3) drivers. Debian/Ubuntu: libavfilter-dev, Fedora/CentOS:\nffmpeg-devel (via https://rpmfusion.org), MacOS Homebrew:\nffmpeg."}]

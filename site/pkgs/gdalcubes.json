@@ -1,0 +1,1 @@
+[{"Package":"gdalcubes","SystemRequirements":"cxx11, gdal, libgdal, libproj, netcdf4"}]

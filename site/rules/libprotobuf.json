@@ -1,0 +1,92 @@
+{
+  "patterns": ["\\blibprotobuf\\b"],
+  "dependencies": [
+    {
+      "packages": ["libprotobuf-dev"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "ubuntu"
+        },
+        {
+          "os": "linux",
+          "distribution": "debian"
+        }
+      ]
+    },
+    {
+      "packages": ["protobuf-devel"],
+      "pre_install": [
+        {
+          "command": "yum install -y epel-release"
+        }
+      ],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "centos",
+          "versions": ["6"]
+        }
+      ]
+    },
+    {
+      "packages": ["protobuf-devel"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "centos",
+          "versions": ["7", "8"]
+        }
+      ]
+    },
+    {
+      "packages": ["protobuf-devel"],
+      "pre_install": [
+        {
+          "command": "rpm -q epel-release || yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm"
+        }
+      ],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "redhat",
+          "versions": ["6"]
+        }
+      ]
+    },
+    {
+      "packages": ["protobuf"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "redhat",
+          "versions": ["7", "8"]
+        }
+      ]
+    },
+    {
+      "packages": ["protobuf-devel"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "opensuse"
+        },
+        {
+          "os": "linux",
+          "distribution": "sle"
+        }
+      ]
+    },
+    {
+      "packages": [
+        "mingw-w64-x86_64-protobuf",
+        "mingw-w64-i686-protobuf"
+      ],
+      "constraints": [
+        {
+          "os": "windows"
+        }
+      ]
+    }
+  ]
+}

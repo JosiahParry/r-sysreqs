@@ -1,0 +1,1 @@
+[{"Package":"CopernicusDEM","SystemRequirements":"awscli: apt install -y awscli (deb), aws-configure:\naws configure (deb)"}]

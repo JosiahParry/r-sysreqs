@@ -1,0 +1,1 @@
+[{"Package":"gpg","SystemRequirements":"GPGME: libgpgme-dev (deb), gpgme-devel (rpm) gpgme\n(brew). On Linux 'haveged' is recommended for generating\nentropy when using the GPG key generator."}]

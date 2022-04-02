@@ -1,0 +1,1 @@
+[{"Package":"nloptr","SystemRequirements":"cmake (for building from included source, i.e. on\nmacOS or on Linux if no system build, version >= 2.7.0, is\nfound)"}]

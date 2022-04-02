@@ -1,0 +1,1 @@
+[{"Package":"inlpubs","SystemRequirements":"Package vignettes require pandoc\n(https://pandoc.org/) and phantomjs (https://phantomjs.org/).\nText mining using n-grams requires Amazon Corretto\n(https://aws.amazon.com/corretto/)."}]

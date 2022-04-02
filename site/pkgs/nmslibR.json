@@ -1,0 +1,1 @@
+[{"Package":"nmslibR","SystemRequirements":"python3-dev: apt-get install -y python3-dev (deb),\npython3-pip: apt-get install -y python3-pip (deb), numpy: pip3\ninstall numpy (deb), scipy: pip3 install scipy (deb), nmslib:\npip3 install --no-binary :all: nmslib (deb)"}]

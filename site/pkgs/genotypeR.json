@@ -1,0 +1,1 @@
+[{"Package":"genotypeR","SystemRequirements":"The SequenomMarkers() marker design function\nrequires 'vcftools' and 'Perl' on 'windows', and, in addition,\n'awk' and 'bash' on '*nix'."}]

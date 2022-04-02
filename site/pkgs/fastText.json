@@ -1,0 +1,1 @@
+[{"Package":"fastText","SystemRequirements":"Generally, fastText builds on modern Mac OS and\nLinux distributions. Since it uses some C++11 features, it\nrequires a compiler with good C++11 support. These include a\n(g++-4.7.2 or newer) or a (clang-3.3 or newer)."}]

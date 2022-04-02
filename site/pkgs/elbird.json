@@ -1,0 +1,1 @@
+[{"Package":"elbird","SystemRequirements":"c(\"C++11\", \"git\", \"wget\", \"cmake\")"}]

@@ -1,0 +1,1 @@
+[{"Package":"TexExamRandomizer","SystemRequirements":"C++11, A modern compiler (>=gcc-4.9), And latexmk\nis necessary to compile all output documents with the functions\nprovided by this package"}]

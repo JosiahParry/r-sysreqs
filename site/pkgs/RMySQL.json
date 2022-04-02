@@ -1,0 +1,1 @@
+[{"Package":"RMySQL","SystemRequirements":"libmariadb-client-dev | libmariadb-client-lgpl-dev\n| libmysqlclient-dev (deb), mariadb-devel (rpm), mariadb |\nmysql-connector-c (brew), mysql56_dev (csw)"}]

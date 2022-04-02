@@ -1,0 +1,1 @@
+[{"Package":"sen2r","SystemRequirements":"GDAL (>= 2.1.2), PROJ (>= 4.9.1), GEOS (>= 3.4.2),\nCairo, Curl, NetCDF, jq, Protocol Buffers, V8, OpenSSL,\nLibxml2."}]

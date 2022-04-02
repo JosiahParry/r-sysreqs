@@ -1,0 +1,1 @@
+[{"Package":"texreg","SystemRequirements":"pandoc (>= 1.12.3) suggested for using wordreg\nfunction; LaTeX packages tikz, booktabs, dcolumn, rotating,\nthumbpdf, longtable, paralist for the vignette"}]

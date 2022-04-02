@@ -1,0 +1,1 @@
+[{"Package":"RMariaDB","SystemRequirements":"libmariadb-client-lgpl-dev or libmariadb-dev or\nlibmysqlclient-dev, with libssl-dev (deb),\nmariadb-connector-c-devel or mariadb-devel (rpm),\nmariadb-connector-c or mysql-connector-c (brew)"}]

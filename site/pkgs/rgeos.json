@@ -1,0 +1,1 @@
+[{"Package":"rgeos","SystemRequirements":"GEOS (>= 3.2.0); for building from source: GEOS\nfrom https://libgeos.org; GEOS OSX frameworks built by William\nKyngesburye at http://www.kyngchaos.com/ may be used for source\ninstalls on OSX."}]

@@ -1,0 +1,1 @@
+[{"Package":"fmf","SystemRequirements":"libarmadillo: apt-get install -y libarmadillo-dev\n(deb), libblas: apt-get install -y libblas-dev (deb),\nliblapack: apt-get install -y liblapack-dev (deb),\nlibarpack++2: apt-get install -y libarpack++2-dev (deb),\ngfortran: apt-get install -y gfortran (deb)"}]

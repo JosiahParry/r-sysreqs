@@ -1,0 +1,1 @@
+[{"Package":"seqminer","SystemRequirements":"C++11, zlib headers and libraries, GNU make,\noptionally also bzip2 and POSIX-compliant regex functions."}]

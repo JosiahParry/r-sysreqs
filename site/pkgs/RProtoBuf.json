@@ -1,0 +1,1 @@
+[{"Package":"RProtoBuf","SystemRequirements":"ProtoBuf libraries and compiler version 2.2.0 or\nlater; version 3.0.0 or later is supported as well. On\nDebian/Ubuntu these can be installed as libprotoc-dev,\nlibprotobuf-dev and protobuf-compiler, while on Fedora/CentOS\nprotobuf-devel and protobuf-compiler are needed."}]

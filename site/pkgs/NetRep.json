@@ -1,0 +1,1 @@
+[{"Package":"NetRep","SystemRequirements":"A compiler with C++11 support for the thread\nlibrary, Requires Rtools >= 33 (i.e. R >= 3.3.0) to build on\nWindows."}]

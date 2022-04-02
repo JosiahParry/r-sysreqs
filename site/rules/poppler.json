@@ -1,0 +1,75 @@
+{
+  "patterns": ["\\bpoppler\\b"],
+  "dependencies": [
+    {
+      "packages": ["libpoppler-cpp-dev"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "ubuntu"
+        },
+        {
+          "os": "linux",
+          "distribution": "debian"
+        }
+      ]
+    },
+    {
+      "packages": ["poppler-devel"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "centos",
+          "versions": ["6", "7"]
+        }
+      ]
+    },
+    {
+      "packages": ["poppler-devel"],
+      "pre_install": [
+        { "command": "dnf install -y dnf-plugins-core" },
+        { "command": "dnf config-manager --set-enabled powertools" }
+      ],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "centos",
+          "versions": ["8"]
+        }
+      ]
+    },
+    {
+      "packages": ["poppler"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "redhat",
+          "versions": ["6", "8"]
+        }
+      ]
+    },
+    {
+      "packages": ["poppler-devel"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "redhat",
+          "versions": ["7"]
+        }
+      ]
+    },
+    {
+      "packages": ["libpoppler-cpp0"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "opensuse"
+        },
+        {
+          "os": "linux",
+          "distribution": "sle"
+        }
+      ]
+    }
+  ]
+}

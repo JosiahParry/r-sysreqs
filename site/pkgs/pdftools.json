@@ -1,0 +1,1 @@
+[{"Package":"pdftools","SystemRequirements":"Poppler C++ API: libpoppler-cpp-dev (deb) or\npoppler-cpp-devel (rpm). The unit tests also require the\n'poppler-data' package (rpm/deb)"}]

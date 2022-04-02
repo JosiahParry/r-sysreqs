@@ -1,0 +1,1 @@
+[{"Package":"tiler","SystemRequirements":"Python (>= 2.7), python-gdal library (For Windows,\ngdal installed via OSGeo4W <https://trac.osgeo.org/osgeo4w/>\nrecommended) clipboard"}]

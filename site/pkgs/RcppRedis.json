@@ -1,0 +1,1 @@
+[{"Package":"RcppRedis","SystemRequirements":"An available hiredis library (eg via package\nlibhiredis-dev on Debian/Ubuntu, hiredis-devel on\nFedora/RedHat, or directly from source from\n<https://github.com/redis/hiredis>) can be used but version\n1.0.2 is also included and built on demand if needed."}]

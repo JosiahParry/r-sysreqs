@@ -1,0 +1,1 @@
+[{"Package":"RPostgres","SystemRequirements":"libpq >= 9.0: libpq-dev (deb) or postgresql-devel\n(rpm)"}]

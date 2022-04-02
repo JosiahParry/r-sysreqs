@@ -1,0 +1,1 @@
+[{"Package":"EPP","SystemRequirements":"C++11, OpenSSL (>= 1.0.1), GDAL (>= 3.0.2), GEOS\n(>= 3.8.0), PROJ (>= 6.2.1), sqlite3"}]

@@ -1,0 +1,1 @@
+[{"Package":"fuzzywuzzyR","SystemRequirements":"Python (>= 2.4), difflib, fuzzywuzzy ( >=0.15.0 ),\npython-Levenshtein ( >=0.12.0 ). Detailed installation\ninstructions for each operating system can be found in the\nREADME file."}]

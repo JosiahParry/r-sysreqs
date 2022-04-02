@@ -1,0 +1,59 @@
+{
+  "patterns": ["\\bjava\\b"],
+  "dependencies": [
+    {
+      "post_install": [
+        {
+          "command": "R CMD javareconf"
+        }
+      ],
+      "packages": ["default-jdk"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "ubuntu"
+        },
+        {
+          "os": "linux",
+          "distribution": "debian"
+        }
+      ]
+    },
+    {
+      "post_install": [
+        {
+          "command": "R CMD javareconf"
+        }
+      ],
+      "packages": ["java-1.8.0-openjdk-devel"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "centos"
+        },
+        {
+          "os": "linux",
+          "distribution": "redhat"
+        }
+      ]
+    },
+    {
+      "post_install": [
+        {
+          "command": "R CMD javareconf"
+        }
+      ],
+      "packages": ["java-1_8_0-openjdk-devel"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "opensuse"
+        },
+        {
+          "os": "linux",
+          "distribution": "sle"
+        }
+      ]
+    }
+  ]
+}

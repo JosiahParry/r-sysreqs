@@ -1,0 +1,1 @@
+[{"Package":"timechange","SystemRequirements":"A system with zoneinfo data (e.g.\n/usr/share/zoneinfo) as well as a recent-enough C++11 compiler\n(such as g++-4.8 or later). On Windows the zoneinfo included\nwith R is used."}]
