@@ -1,10 +1,12 @@
 Package: sysreqs
-Title: What the Package Does (One Line, Title Case)
+Title: Identify Package System Requirements
 Version: 0.0.1
 Authors@R: 
     person("Josiah", "Parry", , "josiah.parry@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-9910-865X"))
-Description: What the package does (one paragraph).
+Description: Identifies R package system requirements. Additionally provides functionality to create one's own system requirements database.
+URL: https://r-sysreqs.josiahparry.com/, https://github.com/josiahparry/r-sysreqs
+BugReports: https://github.com/josiahparry/r-sysreqs/issues
 Depends: R (>= 4.1.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
