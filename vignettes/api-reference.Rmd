@@ -1,0 +1,275 @@
+---
+title: "API Reference"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{API Reference}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  echo = FALSE
+)
+```
+
+The "API" is a simple based plain text website based on json files. These json files can be retrieved via `GET` requests and as such behave much like an API.
+
+## The root
+
+```{r echo = FALSE}
+library(reactable)
+
+all_fps <- data.frame(filepath = list.files("_api", recursive = TRUE))
+
+fps_clean <- all_fps |> 
+  dplyr::filter(!grepl("index.html", filepath)) |> 
+  dplyr::mutate(
+    filepath = fs::path("", filepath),
+    Section = dplyr::case_when(
+    grepl("^/pkgs/", filepath) ~ "/pkgs",
+    grepl("^/rules/", filepath) ~ "/rules",
+    TRUE ~ ""
+    ),
+    name = sub(".json$", "", basename(filepath)),
+    Letter = ifelse(Section != "", toupper(substr(name, 1, 1)), ""))
+```
+
+
+```{r}
+fps_clean |> 
+  dplyr::filter(Section == "") |> 
+  reactable(
+  #  groupBy = c("Section", "Letter"),
+    columns = list(
+      name = colDef(cell = function(value, index) {
+        htmltools::tags$a(href = fps_clean$filepath[index],
+                          target = "_blank",
+                          value)
+      },
+      name = "Name"
+    ),
+    filepath = colDef(show = FALSE),
+    Letter = colDef(name = "A-z", show = FALSE, maxWidth = 25),
+    Section = colDef(show = FALSE)
+  ),
+   resizable = TRUE, wrap = FALSE, bordered = TRUE,
+  defaultColDef = colDef(minWidth = 50)
+)
+```
+
+### Patterns 
+
+`patterns.json` contains the regex patterns used to match the `SystemRequirements` field in a `DESCRIPTION` file to the correct system requirement. It looks like 
+
+```json
+{
+    "apparmor": [
+        "\\bapparmor\\b",
+        "\\blibapparmor\\b"
+    ],
+    "atk": [
+        "\\batk\\b"
+    ]
+...
+..
+. 
+```
+
+### Systems 
+
+
+`systems.json` enumerates the supported operating systems. 
+
+
+```
+    {
+        "os": [
+            "linux"
+        ],
+        "distribution": [
+            "ubuntu"
+        ],
+        "versions": [
+            ["14.04"],
+            ["16.04"],
+            ["18.04"],
+            ["20.04"]
+        ]
+    }
+...
+..
+.
+``` 
+
+
+<br> 
+
+## Packages & System Requirement Rules
+
+The two other paths are `/pkgs` and `/rules`.
+
+- `/pkgs`
+  - contains the package name, recorded version, and system requirements as recorded in the DESCRIPTION for all packages in the CRAN package database that have system requirements. 
+  - it is formatted like `/pkgs/{pkg-name}.json`
+- `/rules`
+  - contains system library regex matching patterns and operating system constraints--e.g. system dependencies and recommended pre & post installation steps. 
+  - it is formatted like `/pkgs/{sys-lib-name}.json`.
+  
+
+```{r}  
+fps_clean |> 
+  dplyr::filter(Section != "") |> 
+reactable(
+    groupBy = c("Section", "Letter"),
+    columns = list(
+      name = colDef(cell = function(value, index) {
+        htmltools::tags$a(href = fps_clean$filepath[index],
+                          target = "_blank",
+                          value)
+      },
+      name = "Name"
+    ),
+    filepath = colDef(show = FALSE),
+    Letter = colDef(name = "A-z", maxWidth = 85),
+    Section = colDef(maxWidth = 145)
+  ),
+  resizable = TRUE, wrap = FALSE, bordered = TRUE,
+  defaultColDef = colDef(minWidth = 50)
+)
+```
+
+
+### Example package json file
+
+```json
+[{"Package":"dbscan","Version":"1.1-10","SystemRequirements":"C++11"}]
+
+```
+
+
+### Example rules json file
+
+
+```json
+{
+  "patterns": ["\\bhdf5\\b", "\\blibhdf5\\b"],
+  "dependencies": [
+    {
+      "packages": ["libhdf5-dev"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "ubuntu"
+        },
+        {
+          "os": "linux",
+          "distribution": "debian"
+        }
+      ]
+    },
+    {
+      "packages": ["hdf5-devel"],
+      "pre_install": [
+        {
+          "command": "yum install -y epel-release"
+        }
+      ],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "centos",
+          "versions": ["6", "7"]
+        }
+      ]
+    },
+    {
+      "packages": ["hdf5-devel"],
+      "pre_install": [
+        {
+          "command": "dnf install -y epel-release"
+        }
+      ],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "centos",
+          "versions": ["8"]
+        }
+      ]
+    },
+    {
+      "packages": ["hdf5-devel"],
+      "pre_install": [
+        {
+          "command": "rpm -q epel-release || yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm"
+        }
+      ],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "redhat",
+          "versions": ["6"]
+        }
+      ]
+    },
+    {
+      "packages": ["hdf5-devel"],
+      "pre_install": [
+        {
+          "command": "rpm -q epel-release || yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm"
+        }
+      ],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "redhat",
+          "versions": ["7"]
+        }
+      ]
+    },
+    {
+      "packages": ["hdf5-devel"],
+      "pre_install": [
+        {
+          "command": "dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm"
+        }
+      ],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "redhat",
+          "versions": ["8"]
+        }
+      ]
+    },
+    {
+      "packages": ["hdf5-devel"],
+      "constraints": [
+        {
+          "os": "linux",
+          "distribution": "opensuse"
+        },
+        {
+          "os": "linux",
+          "distribution": "sle",
+          "versions": ["12.3"]
+        }
+      ]
+    },
+    {
+      "packages": [
+        "mingw-w64-x86_64-hdf5",
+        "mingw-w64-i686-hdf5"
+      ],
+      "constraints": [
+        {
+          "os": "windows"
+        }
+      ]
+    }
+  ]
+}
+```

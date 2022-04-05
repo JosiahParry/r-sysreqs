@@ -1,0 +1,75 @@
+---
+title: "Serving your own site"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Serving your own site}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(sysreqs)
+```
+
+You may have the need to serve your own version of this site locally. If that is the case, you can do so quite easily. There are two steps to hosting your own version of the site/API. First, you must download the requisite json files and store them in their own directory. Second, you must serve them on a server. Since this is only plain-text, you can serve it on Netlify (my choice) or Github pages. sysreqs also provides a function for serving them locally. 
+
+## Create the directories
+
+You can create your own directories using `create_sysreqs_site()` and specifying the output directory. 
+
+```{r message=FALSE, eval = FALSE}
+create_sysreqs_site("_api")
+```
+
+Check the output directory.
+
+```{r}
+fs::dir_ls("_api")
+```
+
+## Serve the site
+
+We can serve the site locally using `serve_sysreqs()` and providing the directory containing the json files that we need. This will create an `httpuv` server that runs in the background. 
+
+By default this runs on `localhost:8080` you can change this by setting the `host` and `port` arguments your self. 
+
+```{r}
+serve_sysreqs("_api")
+```
+
+We can check if this is working by using `httr` to call the local server.
+
+```{r}
+httr::GET("http://localhost:8080/patterns.json")
+```
+
+Awesome! If we want to use this server for our `get_pkg_sysreqs()` and other functions we need to change the environment variable `SYSREQS_URL`. By default it is set to `r Sys.getenv("SYSREQS_URL")`.
+
+```{r}
+Sys.setenv("SYSREQS_URL" = "http://localhost:8080")
+```
+
+We can check if this is correct using the internal function `b_url()` which assigns the base url for http queries.
+
+```{r}
+sysreqs:::b_url()
+```
+
+Let's now try out one of the package's functions. 
+
+```{r}
+sysreqs::fetch_systems()
+```
+Stop serving the site. 
+
+```{r}
+stop_sysreqs()
+```
+

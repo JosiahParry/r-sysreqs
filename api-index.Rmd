@@ -15,5 +15,5 @@ Contents:
 
 - [`patterns`](patterns.json) is used as a lookup table for identify system dependencies
 - [`systems`](systems.json) provides a list of available operating systems (limited to linux distributions)
-- [`/rules`](rules/index.html) is a directory containing the lookup rools for each system dependencies requirements e.g. `rules/gdal.json`
+- [`/rules`](rules/index.html) is a directory containing the lookup rules for each system dependencies requirements e.g. `rules/gdal.json`
 - [`/pkgs`](pkgs/index.html) is a directory containing json files for each package listing their name, version, and system dependencies e.g. `pkgs/igraph.json`

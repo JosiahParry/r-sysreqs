@@ -1,25 +1,60 @@
 
-gdal_rules <- get_rules("gdal")
+#' Identify system library requirements
+#'
+#' @param lib the name of a system library. Must match the name of the library as written in `/rules`.
+#' @inheritParams get_pkg_sysreqs
+#' @export
+#' @examples
+#' get_lib_reqs("fftw3", "ubuntu", "18.04")
+get_lib_reqs <- function(lib, os, os_release) {
+  lib_rules <- fetch_rules(lib)
+  lib_deps <- lib_rules[["dependencies"]]
 
-gdal_deps <- gdal_rules[["dependencies"]]
+  distros <- sapply(lib_deps, function(.x) {
+    unlist(.x[["constraints"]][[1]][["distribution"]])
+  })
 
-distro <- gdal_deps[[1]][["constraints"]][[1]][["distribution"]]
-distro_version <- gdal_deps[[1]][["constraints"]][[1]][["versions"]] |>
-  unlist()
+  versions <- sapply(lib_deps, function(.x) {
+    unlist(.x[["constraints"]][[1]][["versions"]])
+  })
 
-versions <- purrr::map(gdal_deps, ~{
-  .x[["constraints"]][[1]][["versions"]] |>
-    unlist()
-})
+  res <- stats::setNames(versions, distros)
 
+  possible_index <- which(names(res) == os)
 
-distros <- purrr::map_chr(gdal_deps, ~{
-  .x[["constraints"]][[1]][["distribution"]] |>
-    unlist()
-})
+  correct_possible_index <- unlist(
+    lapply(res[possible_index], \(.x) os_release %in% .x)
+  )
 
+  if (rlang::is_scalar_logical(correct_possible_index) &&
+      !correct_possible_index) {
+    correct_possible_index <- TRUE
+  }
 
-setNames(versions, distros)
+  true_index <- possible_index[correct_possible_index]
+
+  pkgs <- lib_deps[[true_index]][["packages"]] |>
+    unlist() %||%
+    NA_character_
+
+  pre_installs <- lib_deps[[true_index]][["pre_install"]] |>
+    lapply(`[[`, "command") |>
+    unlist() %||%
+    NA_character_
+
+  post_installs <- lib_deps[[true_index]][["post_install"]] |>
+    lapply(`[[`, "command") |>
+    unlist() %||%
+    NA_character_
+
+  list(
+    "dependencies" = pkgs,
+    "pre_installs" = pre_installs,
+    "post_installs" = post_installs
+  )
+}
+
+#get_lib_reqs("gdal", "sle", "15.0")
 
 # Args:
 # distro
@@ -30,21 +65,3 @@ setNames(versions, distros)
 # packages
 # pre-installs
 # post-installs
-
-
-
-# xml_rules <- get_rules("libxml2")
-# xml_deps <- xml_rules[["dependencies"]]
-#
-# xml_deps[[1]][["constraints"]][[1]][["versions"]]
-#
-# xml_deps[[1]][["constraints"]]
-
-gdal_packages <- gdal_rules
-purrr::map(gdal_deps, ~{
-  y <- .x[["constraints"]][[1]]
-  distro <- y[["distribution"]]
-  version <- y[["versions"]]
-  version
-})
-

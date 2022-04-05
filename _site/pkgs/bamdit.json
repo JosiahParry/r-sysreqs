@@ -1,1 +1,1 @@
-[{"Package":"bamdit","Version":"3.3.2","SystemRequirements":"JAGS (>= 3.4.0) (see\nhttp://mcmc-jags.sourceforge.net)"}]
+[{"Package":"bamdit","Version":"3.4.0","SystemRequirements":"JAGS (>= 4.3.0) (see\nhttp://mcmc-jags.sourceforge.net)"}]

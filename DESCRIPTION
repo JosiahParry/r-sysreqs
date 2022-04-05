@@ -1,0 +1,36 @@
+Package: sysreqs
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Josiah", "Parry", , "josiah.parry@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-9910-865X"))
+Description: What the package does (one paragraph).
+Depends: R (>= 4.1.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    cli,
+    fs,
+    httr,
+    stats,
+    jsonlite,
+    rlang,
+    stringr,
+    purrr
+Suggests: 
+    tibble,
+    tidyr,
+    dplyr,
+    httpuv,
+    knitr,
+    rmarkdown,
+    gh,
+    htmltools,
+    tools,
+    withr,
+    reactable,
+    utils
+VignetteBuilder: knitr
