@@ -12,6 +12,8 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
+
+outdir <- here::here("_api")
 ```
 
 ```{r setup}
@@ -25,13 +27,14 @@ You may have the need to serve your own version of this site locally. If that is
 You can create your own directories using `create_sysreqs_site()` and specifying the output directory. 
 
 ```{r message=FALSE, eval = FALSE}
-create_sysreqs_site("_api")
+outdir <- "_api"
+create_sysreqs_site(outdir)
 ```
 
 Check the output directory.
 
 ```{r}
-fs::dir_ls("_api")
+list.files(outdir)
 ```
 
 ## Serve the site
@@ -41,7 +44,7 @@ We can serve the site locally using `serve_sysreqs()` and providing the director
 By default this runs on `localhost:8080` you can change this by setting the `host` and `port` arguments your self. 
 
 ```{r}
-serve_sysreqs("_api")
+serve_sysreqs(outdir)
 ```
 
 We can check if this is working by using `httr` to call the local server.

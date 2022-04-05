@@ -26,7 +26,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">sysreqs</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.0.9000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.1</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,12 +79,13 @@
 </h2>
 <p>You can create your own directories using <code><a href="../reference/create_sysreqs_site.html">create_sysreqs_site()</a></code> and specifying the output directory.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="../reference/create_sysreqs_site.html">create_sysreqs_site</a></span><span class="op">(</span><span class="st">"_api"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="va">outdir</span> <span class="op">&lt;-</span> <span class="st">"_api"</span>
+<span class="fu"><a href="../reference/create_sysreqs_site.html">create_sysreqs_site</a></span><span class="op">(</span><span class="va">outdir</span><span class="op">)</span></code></pre></div>
 <p>Check the output directory.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">fs</span><span class="fu">::</span><span class="fu"><a href="https://fs.r-lib.org/reference/dir_ls.html" class="external-link">dir_ls</a></span><span class="op">(</span><span class="st">"_api"</span><span class="op">)</span>
-<span class="co">#&gt; _api/index.html    _api/patterns.json <span style="color: #0000BB; background-color: #00BB00;">_api/pkgs</span>          <span style="color: #0000BB; background-color: #00BB00;">_api/rules</span>         </span>
-<span class="co">#&gt; _api/systems.json</span></code></pre></div>
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/list.files.html" class="external-link">list.files</a></span><span class="op">(</span><span class="va">outdir</span><span class="op">)</span>
+<span class="co">#&gt; [1] "index.html"    "patterns.json" "pkgs"          "rules"        </span>
+<span class="co">#&gt; [5] "systems.json"</span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="serve-the-site">Serve the site<a class="anchor" aria-label="anchor" href="#serve-the-site"></a>
@@ -92,13 +93,13 @@
 <p>We can serve the site locally using <code><a href="../reference/serve_sysreqs.html">serve_sysreqs()</a></code> and providing the directory containing the json files that we need. This will create an <code>httpuv</code> server that runs in the background.</p>
 <p>By default this runs on <code>localhost:8080</code> you can change this by setting the <code>host</code> and <code>port</code> arguments your self.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="../reference/serve_sysreqs.html">serve_sysreqs</a></span><span class="op">(</span><span class="st">"_api"</span><span class="op">)</span>
+<code class="sourceCode R"><span class="fu"><a href="../reference/serve_sysreqs.html">serve_sysreqs</a></span><span class="op">(</span><span class="va">outdir</span><span class="op">)</span>
 <span class="co">#&gt; <span style="color: #00BBBB;">ℹ</span> site being served at http://0.0.0.0:8080</span></code></pre></div>
 <p>We can check if this is working by using <code>httr</code> to call the local server.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">httr</span><span class="fu">::</span><span class="fu"><a href="https://httr.r-lib.org/reference/GET.html" class="external-link">GET</a></span><span class="op">(</span><span class="st">"http://localhost:8080/patterns.json"</span><span class="op">)</span>
 <span class="co">#&gt; Response [http://localhost:8080/patterns.json]</span>
-<span class="co">#&gt;   Date: 2022-04-05 13:54</span>
+<span class="co">#&gt;   Date: 2022-04-05 14:20</span>
 <span class="co">#&gt;   Status: 200</span>
 <span class="co">#&gt;   Content-Type: application/json</span>
 <span class="co">#&gt;   Size: 3.22 kB</span>
@@ -118,14 +119,20 @@
 <span class="co">#&gt; [1] "linux"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[1]]$distribution</span>
-<span class="co">#&gt; [1] "debian"</span>
+<span class="co">#&gt; [1] "ubuntu"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[1]]$versions</span>
 <span class="co">#&gt; [[1]]$versions[[1]]</span>
-<span class="co">#&gt; [1] "8"</span>
+<span class="co">#&gt; [1] "14.04"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[1]]$versions[[2]]</span>
-<span class="co">#&gt; [1] "9"</span>
+<span class="co">#&gt; [1] "16.04"</span>
+<span class="co">#&gt; </span>
+<span class="co">#&gt; [[1]]$versions[[3]]</span>
+<span class="co">#&gt; [1] "18.04"</span>
+<span class="co">#&gt; </span>
+<span class="co">#&gt; [[1]]$versions[[4]]</span>
+<span class="co">#&gt; [1] "20.04"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; </span>
@@ -134,20 +141,17 @@
 <span class="co">#&gt; [1] "linux"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[2]]$distribution</span>
-<span class="co">#&gt; [1] "ubuntu"</span>
+<span class="co">#&gt; [1] "centos"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[2]]$versions</span>
 <span class="co">#&gt; [[2]]$versions[[1]]</span>
-<span class="co">#&gt; [1] "14.04"</span>
+<span class="co">#&gt; [1] "6"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[2]]$versions[[2]]</span>
-<span class="co">#&gt; [1] "16.04"</span>
+<span class="co">#&gt; [1] "7"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[2]]$versions[[3]]</span>
-<span class="co">#&gt; [1] "18.04"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; [[2]]$versions[[4]]</span>
-<span class="co">#&gt; [1] "20.04"</span>
+<span class="co">#&gt; [1] "8"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; </span>
@@ -156,7 +160,7 @@
 <span class="co">#&gt; [1] "linux"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[3]]$distribution</span>
-<span class="co">#&gt; [1] "centos"</span>
+<span class="co">#&gt; [1] "redhat"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[3]]$versions</span>
 <span class="co">#&gt; [[3]]$versions[[1]]</span>
@@ -175,17 +179,20 @@
 <span class="co">#&gt; [1] "linux"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[4]]$distribution</span>
-<span class="co">#&gt; [1] "redhat"</span>
+<span class="co">#&gt; [1] "opensuse"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[4]]$versions</span>
 <span class="co">#&gt; [[4]]$versions[[1]]</span>
-<span class="co">#&gt; [1] "6"</span>
+<span class="co">#&gt; [1] "42.3"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[4]]$versions[[2]]</span>
-<span class="co">#&gt; [1] "7"</span>
+<span class="co">#&gt; [1] "15.0"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[4]]$versions[[3]]</span>
-<span class="co">#&gt; [1] "8"</span>
+<span class="co">#&gt; [1] "15.2"</span>
+<span class="co">#&gt; </span>
+<span class="co">#&gt; [[4]]$versions[[4]]</span>
+<span class="co">#&gt; [1] "15.3"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; </span>
@@ -194,11 +201,11 @@
 <span class="co">#&gt; [1] "linux"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[5]]$distribution</span>
-<span class="co">#&gt; [1] "opensuse"</span>
+<span class="co">#&gt; [1] "sle"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[5]]$versions</span>
 <span class="co">#&gt; [[5]]$versions[[1]]</span>
-<span class="co">#&gt; [1] "42.3"</span>
+<span class="co">#&gt; [1] "12.3"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[5]]$versions[[2]]</span>
 <span class="co">#&gt; [1] "15.0"</span>
@@ -207,35 +214,7 @@
 <span class="co">#&gt; [1] "15.2"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; [[5]]$versions[[4]]</span>
-<span class="co">#&gt; [1] "15.3"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; [[6]]</span>
-<span class="co">#&gt; [[6]]$os</span>
-<span class="co">#&gt; [1] "linux"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; [[6]]$distribution</span>
-<span class="co">#&gt; [1] "sle"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; [[6]]$versions</span>
-<span class="co">#&gt; [[6]]$versions[[1]]</span>
-<span class="co">#&gt; [1] "12.3"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; [[6]]$versions[[2]]</span>
-<span class="co">#&gt; [1] "15.0"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; [[6]]$versions[[3]]</span>
-<span class="co">#&gt; [1] "15.2"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; [[6]]$versions[[4]]</span>
-<span class="co">#&gt; [1] "15.3"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; [[7]]</span>
-<span class="co">#&gt; [[7]]$os</span>
-<span class="co">#&gt; [1] "windows"</span></code></pre></div>
+<span class="co">#&gt; [1] "15.3"</span></code></pre></div>
 <p>Stop serving the site.</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="../reference/stop_sysreqs.html">stop_sysreqs</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
