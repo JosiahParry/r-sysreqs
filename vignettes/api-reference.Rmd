@@ -22,7 +22,8 @@ The "API" is a simple based plain text website based on json files. These json f
 ```{r echo = FALSE}
 library(reactable)
 
-all_fps <- data.frame(filepath = list.files("_api", recursive = TRUE))
+all_fps <- data.frame(filepath = list.files(here::here("_api"),
+                                            recursive = TRUE))
 
 fps_clean <- all_fps |> 
   dplyr::filter(!grepl("index.html", filepath)) |> 
@@ -39,13 +40,15 @@ fps_clean <- all_fps |>
 
 
 ```{r}
-fps_clean |> 
-  dplyr::filter(Section == "") |> 
+root_fps <- fps_clean |> 
+  dplyr::filter(Section == "") 
+
+root_fps |>   
   reactable(
   #  groupBy = c("Section", "Letter"),
     columns = list(
       name = colDef(cell = function(value, index) {
-        htmltools::tags$a(href = fps_clean$filepath[index],
+        htmltools::tags$a(href = root_fps$filepath[index],
                           target = "_blank",
                           value)
       },
@@ -120,13 +123,15 @@ The two other paths are `/pkgs` and `/rules`.
   
 
 ```{r}  
-fps_clean |> 
-  dplyr::filter(Section != "") |> 
-reactable(
+pkg_rules_fps <- fps_clean |> 
+  dplyr::filter(Section != "") 
+
+pkg_rules_fps |> 
+  reactable(
     groupBy = c("Section", "Letter"),
     columns = list(
       name = colDef(cell = function(value, index) {
-        htmltools::tags$a(href = fps_clean$filepath[index],
+        htmltools::tags$a(href = pkg_rules_fps$filepath[index],
                           target = "_blank",
                           value)
       },
