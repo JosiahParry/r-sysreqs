@@ -18,7 +18,7 @@ functionality is inspired by \[`pak::pkg_system_requirements()`\].
 This package can be installed from github.
 
 ``` r
-remotes::install_github("josiahparry/r-sysdeps")
+remotes::install_github("josiahparry/r-sysreqs")
 ```
 
 ## Usage
